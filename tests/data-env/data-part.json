@@ -1,0 +1,10 @@
+{
+    "compte_1": {
+        "type": "1",
+        "compte": "test",
+        "username": "test@digitalbank.fr",
+        "password": "Test1234!",
+        "prenom": "Utilisateur",
+        "nom": "Test"
+    }
+}

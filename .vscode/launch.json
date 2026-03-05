@@ -1,0 +1,21 @@
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Robot Framework: Run Tests",
+            "type": "python",  
+            "request": "launch",
+            "program": "${workspaceFolder}/venv/Scripts/robot.exe",  
+            "args": [
+                "--outputdir", "${workspaceFolder}/output",  
+                "${workspaceFolder}/tests/test-suites/1-suite_test.robot"
+            ]
+        }
+    ]
+}
+
+//"args" : Ce champ spécifie les arguments à passer à la commande Robot Framework.
+//--outputdir : Cela permet de spécifier le dossier dans lequel les fichiers de résultats (log, output, report) seront générés.
+//Ici, ${workspaceFolder}/output signifie que le dossier output sera à la racine de ton projet.
+//${workspaceFolder}/tests/test-suites/1-suite_test.robot : C'est le chemin relatif vers ton fichier de test. Tu peux le remplacer par le chemin de ton fichier de test réel.

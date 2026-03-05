@@ -1,0 +1,50 @@
+name: DigitalBank Robot Tests
+
+on:
+  push:
+    branches:
+      - main
+      - develop
+  pull_request:
+
+jobs:
+
+  robot-tests:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+
+    - name: Setup Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+
+
+    - name: Install dependencies
+      run: |
+        pip install robotframework
+        pip install robotframework-seleniumlibrary
+        pip install robotframework-jsonlibrary
+        pip install robotframework-requests
+        pip install selenium
+
+
+    - name: Install Chrome
+      uses: browser-actions/setup-chrome@v1
+
+
+    - name: Run Robot Tests
+      run: |
+        robot -d output tests/test-suites
+
+
+    - name: Upload Robot Reports
+      uses: actions/upload-artifact@v4
+      with:
+        name: robot-report
+        path: output
