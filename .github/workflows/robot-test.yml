@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-      - develop
+      - dev
   pull_request:
 
 jobs:
@@ -36,6 +36,16 @@ jobs:
 
     - name: Install Chrome
       uses: browser-actions/setup-chrome@v1
+
+
+    - name: Start Docker container
+      run: |
+        docker compose up -d
+
+
+    - name: Wait for application
+      run: |
+        sleep 5
 
 
     - name: Run Robot Tests
