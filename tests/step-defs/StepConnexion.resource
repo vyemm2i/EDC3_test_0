@@ -9,9 +9,13 @@ ${JSON_FILE_PATH}    ${CURDIR}/path/to/data-part.json
 *** Keywords ***
 Charger Donnees Compte
     [Documentation]    Charger les données depuis le fichier JSON
+
+    [Arguments]    ${compte}
     ${data}=    Load JSON From File    ${JSON_FILE_PATH}
-    ${compte_1}=    Get From Dictionary    ${data}    compte_1
-    [Return]    ${compte_1}
+
+    ${compte_0}=    Get From Dictionary    ${data}    ${compte}
+    Log To Console    Compte : ${compte}
+    [Return]    ${compte_0}
 
 *** Keywords ***
 Se Connecter
@@ -26,16 +30,13 @@ Verifier Connexion Ok
     [Documentation]    Verifier Connexion Ok
     [Arguments]    ${compte}
     Log To Console    Verifier Connexion Ok ${compte}[username]
-    # Check Connection    Bienvenue formation admin
-    BasePages.Check Connection    Mes Comptes
+    BasePages.Check Connection Ok   Mes Comptes
 
-#Verifier Connexion Ko
-#    [Documentation]    Verifier Connexion Ko
-#    ...    CNX_ERROR_00001 identifiant invalide
-#    ...    CNX_ERROR_00003 compte bloqué
-#    [Arguments]    ${code_erreur}
-#    Log To Console    Verifier Connexion Ko
-#    BasePages.Check Popup Message    ${TRANSLATE}[exception][connexion][${code_erreur}]
+*** Keywords ***
+Verifier Connexion Ko
+    [Arguments]    ${compte}
+    Log To Console    Verifier Connexion Ko ${compte}[username]
+    BasePages.Check Connection Ko    Email ou mot de passe incorrect
 
 Se Deconnecter
     [Documentation]    Se Deconnecter

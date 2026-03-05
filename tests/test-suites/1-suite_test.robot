@@ -28,24 +28,32 @@ Check Chrome Open
     Sleep    2s   # Attendre en secondes pour voir la page
     No Operation
 
-
-*** Test Cases ***
 Se Connecter Compte_1
-    [Documentation]    Se Connecter Compte
+    [Documentation]    Se Connecter Compte_1
     [Tags]    jira_01    test_positive    dev_done
-    ${compte_1}=    Charger Donnees Compte
+    ${compte_1}=    Charger Donnees Compte    compte_1
     StepConnexion.Se Connecter    ${compte_1}
-    Sleep    3s
+    Sleep    2s
     StepConnexion.Verifier Connexion Ok    ${compte_1}
-    Sleep    3s
+    Sleep    2s
 
 Se Deconnecter Compte_1
-    [Documentation]    Se Déconnecter Compte
+    [Documentation]    Se Déconnecter Compte_1
     [Tags]    jira_02    test_positive    dev_done
-    ${compte_1}=    Charger Donnees Compte
+    ${compte_1}=    Charger Donnees Compte    compte_1
     StepConnexion.Se Connecter    ${compte_1}
-    Sleep    3s
+    Sleep    2s
     StepConnexion.Verifier Connexion Ok    ${compte_1}
-    Sleep    3s
+    Sleep    2s
     StepConnexion.Se Deconnecter
     Sleep    2s
+
+Se Connecter Compte_2
+    [Documentation]    Se Connecter Compte_2
+    [Tags]    jira_03    test_negatif    dev_done
+    ${compte_2}=    Charger Donnees Compte    compte_2
+    StepConnexion.Se Connecter    ${compte_2}
+    Sleep    2s
+    StepConnexion.Verifier Connexion Ko    ${compte_2}
+    Sleep    2s
+
