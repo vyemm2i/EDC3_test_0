@@ -35,30 +35,6 @@ DigitalBank est une application bancaire mobile simulée, conçue spécifiquemen
 - Activation/désactivation de la double authentification
 - Gestion des notifications (email/SMS)
 
----
-
-## Identifiants de Test
-
-### Compte Standard (sans 2FA)
-```
-Email: test@digitalbank.fr
-Mot de passe: Test1234!
-```
-
-### Compte avec Double Authentification
-```
-Email: marie.martin@email.com
-Mot de passe: SecurePass456!
-Code 2FA: 123456
-```
-
-### Compte Supplémentaire
-```
-Email: jean.dupont@email.com
-Mot de passe: Password123!
-```
-
----
 
 ## Notes Importantes
 
