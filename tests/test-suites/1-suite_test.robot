@@ -42,7 +42,7 @@ Se Connecter Compte_1
     StepConnexion.Se Deconnecter
     Sleep    2s
 
-# CAS N°2 (NON-PASSANT) : Connexion avec identifiant et mot de passe
+# CAS N°2 (NON-PASSANT) : Connexion avec identifiant et mot de passe erroné (autre)
 Se Connecter Compte_2
     [Documentation]    Se Connecter Compte_2
     [Tags]    jira_02    test_negatif    dev_done
@@ -64,3 +64,15 @@ Se connecter Compte_MFA_1
     Sleep    2s
     StepConnexion.Se Deconnecter
     Sleep    2s
+
+# CAS N°3 (NON-PASSANT) : Connexion avec identifiant, mot de passe et MFA erroné (chiffre manquant)
+Se connecter Compte_MFA_1
+    [Documentation]    Se Connecter Compte_MFA_2
+    [Tags]    jira_04    test_positif    dev_done
+    ${compte_mfa_2}=    Charger Donnees Compte    compte_mfa_2
+    StepConnexion.Se Connecter    ${compte_mfa_2}
+    StepConnexion.Se Connecter Avec 2FA    ${compte_mfa_2}
+    Sleep    2s
+    StepConnexion.Verifier Connexion 2FA Ko    ${compte_mfa_2}
+    Sleep    2s
+

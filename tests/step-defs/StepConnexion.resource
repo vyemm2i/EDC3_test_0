@@ -33,7 +33,6 @@ Verifier Connexion Ok
     Log To Console    Verifier Connexion Ok ${compte}[username]
     PageConnexion.Check Connection Ok   Mes Comptes
 
-*** Keywords ***
 Verifier Connexion Ko
     [Arguments]    ${compte}
     Log To Console    Verifier Connexion Ko ${compte}[username]
@@ -46,6 +45,11 @@ Se Connecter Avec 2FA
     MfaConnexion.Verifier Page 2FA    Vérification en 2 étapes
     MfaConnexion.Entrer Code 2FA    ${compte}[code]
     MfaConnexion.Verifier Code 2FA
+
+Verifier Connexion 2FA Ko
+    [Arguments]    ${compte}
+    Log To Console    Verifier Connexion Ko ${compte}[username]
+    MfaConnexion.Check Connection 2FA Ko    Code de vérification incorrect
 
 Se Deconnecter
     [Documentation]    Se Deconnecter
