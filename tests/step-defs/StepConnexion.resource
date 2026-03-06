@@ -2,6 +2,7 @@
 Documentation       Step Definitions Connexion
 
 Resource            ${CURDIR}/../page-objects/PageConnexion.resource
+Resource            ${CURDIR}/../page-objects/MfaConnexion.resource
 
 *** Variables ***
 ${JSON_FILE_PATH}    ${CURDIR}/path/to/data-part.json
@@ -30,15 +31,23 @@ Verifier Connexion Ok
     [Documentation]    Verifier Connexion Ok
     [Arguments]    ${compte}
     Log To Console    Verifier Connexion Ok ${compte}[username]
-    BasePages.Check Connection Ok   Mes Comptes
+    PageConnexion.Check Connection Ok   Mes Comptes
 
 *** Keywords ***
 Verifier Connexion Ko
     [Arguments]    ${compte}
     Log To Console    Verifier Connexion Ko ${compte}[username]
-    BasePages.Check Connection Ko    Email ou mot de passe incorrect
+    PageConnexion.Check Connection Ko    Email ou mot de passe incorrect
+
+Se Connecter Avec 2FA
+    [Documentation]    Se Connecter avec 2FA
+    [Arguments]    ${compte}
+    Log To Console    Se connecter avec 2fa ${compte}[username]
+    MfaConnexion.Verifier Page 2FA    Vérification en 2 étapes
+    MfaConnexion.Entrer Code 2FA    ${compte}[code]
+    MfaConnexion.Verifier Code 2FA
 
 Se Deconnecter
     [Documentation]    Se Deconnecter
     Log To Console    Se Deconnecter
-    BasePages.Log Off
+    PageConnexion.Sign Out

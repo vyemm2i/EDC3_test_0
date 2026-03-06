@@ -1,70 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.4.1 (Python 3.11.9 on win32)" generated="2026-03-05T17:35:50.793283" rpa="false" schemaversion="5">
+<robot generator="Robot 7.4.1 (Python 3.11.9 on win32)" generated="2026-03-06T15:13:51.939826" rpa="false" schemaversion="5">
 <suite id="s1" name="1-Suite Test" source="C:\Users\Administrateur\Documents\Etudes_de_cas_finaux\Projet_Etude_de_Cas_3\digitalbank\tests\test-suites\1-suite_test.robot">
 <kw name="Suite Setup" owner="BaseTests" type="SETUP">
 <kw name="Log Context" owner="BaseTests">
 <kw name="Log To Console" owner="BuiltIn">
 <arg>${EMPTY}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2026-03-05T17:35:51.268912" elapsed="0.001008"/>
+<status status="PASS" start="2026-03-06T15:13:52.396847" elapsed="0.000995"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>================================================================== SUITE SETUP</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2026-03-05T17:35:51.269920" elapsed="0.000992"/>
+<status status="PASS" start="2026-03-06T15:13:52.397842" elapsed="0.000999"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>CURDIR____________\tC:\\Users\\Administrateur\\Documents\\Etudes_de_cas_finaux\\Projet_Etude_de_Cas_3\\digitalbank\\tests</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2026-03-05T17:35:51.270912" elapsed="0.000000"/>
+<status status="PASS" start="2026-03-06T15:13:52.398841" elapsed="0.000000"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>EXECDIR___________\t${EXECDIR}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2026-03-05T17:35:51.271913" elapsed="0.000000"/>
+<status status="PASS" start="2026-03-06T15:13:52.399852" elapsed="0.000000"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>OUTPUT DIR________\t${OUTPUT DIR}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2026-03-05T17:35:51.271913" elapsed="0.001005"/>
+<status status="PASS" start="2026-03-06T15:13:52.400851" elapsed="0.000000"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>ENV_______________\t${ENV}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2026-03-05T17:35:51.272918" elapsed="0.000996"/>
+<status status="PASS" start="2026-03-06T15:13:52.400851" elapsed="0.000993"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>BROWSER___________\t${BROWSER}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2026-03-05T17:35:51.273914" elapsed="0.000996"/>
+<status status="PASS" start="2026-03-06T15:13:52.401844" elapsed="0.000999"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>BROWSER_HEADLESS__\t${BROWSER_HEADLESS}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2026-03-05T17:35:51.274910" elapsed="0.000000"/>
+<status status="PASS" start="2026-03-06T15:13:52.402843" elapsed="0.001048"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>URL_______________\t${URL_DIGITALBANK_TEST}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2026-03-05T17:35:51.276008" elapsed="0.000551"/>
+<status status="PASS" start="2026-03-06T15:13:52.403891" elapsed="0.000000"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>${EMPTY}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2026-03-05T17:35:51.276559" elapsed="0.000593"/>
+<status status="PASS" start="2026-03-06T15:13:52.404865" elapsed="0.000572"/>
 </kw>
 <doc>Log Context</doc>
-<status status="PASS" start="2026-03-05T17:35:51.267914" elapsed="0.009238"/>
+<status status="PASS" start="2026-03-06T15:13:52.395840" elapsed="0.009597"/>
 </kw>
 <kw name="GET" owner="RequestsLibrary">
-<msg time="2026-03-05T17:35:51.296110" level="INFO">GET Request : url=http://localhost:8080/ 
+<msg time="2026-03-06T15:13:52.426429" level="INFO">GET Request : url=http://localhost:8080/ 
  path_url=/ 
  headers={'User-Agent': 'python-requests/2.32.5', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'} 
  body=None 
  </msg>
-<msg time="2026-03-05T17:35:51.296110" level="INFO">GET Response : url=http://localhost:8080/ 
+<msg time="2026-03-06T15:13:52.426429" level="INFO">GET Response : url=http://localhost:8080/ 
  status=200, reason=OK 
- headers={'Server': 'nginx/1.29.2', 'Date': 'Thu, 05 Mar 2026 16:35:51 GMT', 'Content-Type': 'text/html', 'Content-Length': '84249', 'Last-Modified': 'Mon, 02 Feb 2026 09:37:12 GMT', 'Connection': 'keep-alive', 'ETag': '"69807048-14919"', 'Accept-Ranges': 'bytes'} 
+ headers={'Server': 'nginx/1.29.2', 'Date': 'Fri, 06 Mar 2026 14:13:52 GMT', 'Content-Type': 'text/html', 'Content-Length': '84249', 'Last-Modified': 'Mon, 02 Feb 2026 09:37:12 GMT', 'Connection': 'keep-alive', 'ETag': '"69807048-14919"', 'Accept-Ranges': 'bytes'} 
  body=&lt;!DOCTYPE html&gt;
 &lt;html lang="fr"&gt;
 &lt;head&gt;
@@ -417,43 +417,43 @@
 <arg>${URL_DIGITALBANK_${ENV}}</arg>
 <arg>expected_status=200</arg>
 <doc>Sends a GET request.</doc>
-<status status="PASS" start="2026-03-05T17:35:51.277152" elapsed="0.019956"/>
+<status status="PASS" start="2026-03-06T15:13:52.405437" elapsed="0.021991"/>
 </kw>
 <kw name="Set Log Level" owner="BuiltIn">
 <arg>NONE</arg>
 <doc>Sets the log threshold to the specified level.</doc>
-<status status="PASS" start="2026-03-05T17:35:51.297108" elapsed="0.000000"/>
+<status status="PASS" start="2026-03-06T15:13:52.427428" elapsed="0.000000"/>
 </kw>
 <doc>Suite Setup</doc>
-<status status="PASS" start="2026-03-05T17:35:51.266917" elapsed="0.030191"/>
+<status status="PASS" start="2026-03-06T15:13:52.395840" elapsed="0.031588"/>
 </kw>
-<test id="s1-t1" name="Check Chrome Open" line="26">
+<test id="s1-t1" name="Check Chrome Open" line="28">
 <kw name="Test Setup" owner="BaseTests" type="SETUP">
 <kw name="Log To Console" owner="BuiltIn">
 <arg>${EMPTY}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2026-03-05T17:35:51.299115" elapsed="0.001005"/>
+<status status="PASS" start="2026-03-06T15:13:52.429442" elapsed="0.000000"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>================================================================== TEST SETUP</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2026-03-05T17:35:51.300120" elapsed="0.000000"/>
+<status status="PASS" start="2026-03-06T15:13:52.430435" elapsed="0.000000"/>
 </kw>
 <kw name="Clean String Filename" owner="Common">
 <var>${filename}</var>
 <arg>${TEST NAME}_Env_${ENV}_${BROWSER}_</arg>
-<status status="PASS" start="2026-03-05T17:35:51.301104" elapsed="0.000000"/>
+<status status="PASS" start="2026-03-06T15:13:52.430435" elapsed="0.000994"/>
 </kw>
 <kw name="Set Global Variable" owner="BuiltIn">
 <arg>${FILENAME}</arg>
 <arg>${filename}</arg>
 <doc>Makes a variable available globally in all tests and suites.</doc>
-<status status="PASS" start="2026-03-05T17:35:51.301104" elapsed="0.000000"/>
+<status status="PASS" start="2026-03-06T15:13:52.431429" elapsed="0.000000"/>
 </kw>
 <kw name="Register Keyword To Run On Failure" owner="SeleniumLibrary">
 <arg>NONE</arg>
 <doc>Sets the keyword to execute, when a SeleniumLibrary keyword fails.</doc>
-<status status="PASS" start="2026-03-05T17:35:51.301104" elapsed="0.001002"/>
+<status status="PASS" start="2026-03-06T15:13:52.431429" elapsed="0.001002"/>
 </kw>
 <kw name="Run Keyword" owner="BuiltIn">
 <kw name="Openchrome" owner="BaseSelenium">
@@ -462,21 +462,21 @@
 <arg>sys.modules['selenium.webdriver'].ChromeOptions()</arg>
 <arg>sys, selenium.webdriver</arg>
 <doc>Evaluates the given expression in Python and returns the result.</doc>
-<status status="PASS" start="2026-03-05T17:35:51.303105" elapsed="0.000000"/>
+<status status="PASS" start="2026-03-06T15:13:52.433435" elapsed="0.001012"/>
 </kw>
 <kw name="Call Method" owner="BuiltIn">
 <arg>${options}</arg>
 <arg>add_argument</arg>
 <arg>incognito</arg>
 <doc>Calls the named method of the given object with the provided arguments.</doc>
-<status status="PASS" start="2026-03-05T17:35:51.303105" elapsed="0.000000"/>
+<status status="PASS" start="2026-03-06T15:13:52.434447" elapsed="0.000000"/>
 </kw>
 <kw name="Call Method" owner="BuiltIn">
 <arg>${options}</arg>
 <arg>add_argument</arg>
 <arg>disable-search-engine-choice-screen</arg>
 <doc>Calls the named method of the given object with the provided arguments.</doc>
-<status status="PASS" start="2026-03-05T17:35:51.303105" elapsed="0.001000"/>
+<status status="PASS" start="2026-03-06T15:13:52.434447" elapsed="0.000991"/>
 </kw>
 <kw name="Create List" owner="BuiltIn">
 <var>${excludeSwitches}</var>
@@ -484,7 +484,7 @@
 <arg>enable-logging</arg>
 <arg>disable-popup-blocking</arg>
 <doc>Returns a list containing given items.</doc>
-<status status="PASS" start="2026-03-05T17:35:51.304105" elapsed="0.000000"/>
+<status status="PASS" start="2026-03-06T15:13:52.435438" elapsed="0.000000"/>
 </kw>
 <kw name="Call Method" owner="BuiltIn">
 <arg>${options}</arg>
@@ -492,7 +492,7 @@
 <arg>excludeSwitches</arg>
 <arg>${excludeSwitches}</arg>
 <doc>Calls the named method of the given object with the provided arguments.</doc>
-<status status="PASS" start="2026-03-05T17:35:51.304105" elapsed="0.001009"/>
+<status status="PASS" start="2026-03-06T15:13:52.435438" elapsed="0.000990"/>
 </kw>
 <if>
 <branch type="IF" condition="'''${BROWSER_HEADLESS}'''.upper() == 'YES'">
@@ -501,117 +501,117 @@
 <arg>add_argument</arg>
 <arg>headless</arg>
 <doc>Calls the named method of the given object with the provided arguments.</doc>
-<status status="PASS" start="2026-03-05T17:35:51.305114" elapsed="0.000000"/>
+<status status="NOT RUN" start="2026-03-06T15:13:52.437206" elapsed="0.000000"/>
 </kw>
-<status status="PASS" start="2026-03-05T17:35:51.305114" elapsed="0.000000"/>
+<status status="NOT RUN" start="2026-03-06T15:13:52.436428" elapsed="0.000778"/>
 </branch>
-<status status="PASS" start="2026-03-05T17:35:51.305114" elapsed="0.000000"/>
+<status status="PASS" start="2026-03-06T15:13:52.436428" elapsed="0.000778"/>
 </if>
 <kw name="Open Browser" owner="SeleniumLibrary">
 <arg>url=${URL_DIGITALBANK_${ENV}}</arg>
 <arg>browser=chrome</arg>
 <arg>options=${options}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2026-03-05T17:35:51.305114" elapsed="1.563283"/>
+<status status="PASS" start="2026-03-06T15:13:52.437206" elapsed="1.500953"/>
 </kw>
 <doc>Openchrome</doc>
-<status status="PASS" start="2026-03-05T17:35:51.302106" elapsed="1.567290"/>
+<status status="PASS" start="2026-03-06T15:13:52.433435" elapsed="1.504724"/>
 </kw>
 <arg>Open${BROWSER}</arg>
 <doc>Executes the given keyword with the given arguments.</doc>
-<status status="PASS" start="2026-03-05T17:35:51.302106" elapsed="1.567290"/>
+<status status="PASS" start="2026-03-06T15:13:52.432431" elapsed="1.506739"/>
 </kw>
 <kw name="Set Selenium Implicit Wait" owner="SeleniumLibrary">
 <arg>${IMPLICIT_WAIT}</arg>
 <doc>Sets the implicit wait value used by Selenium.</doc>
-<status status="PASS" start="2026-03-05T17:35:52.869396" elapsed="0.002000"/>
+<status status="PASS" start="2026-03-06T15:13:53.939170" elapsed="0.002000"/>
 </kw>
 <kw name="Maximize Browser Window" owner="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" start="2026-03-05T17:35:52.871396" elapsed="0.023778"/>
+<status status="PASS" start="2026-03-06T15:13:53.941170" elapsed="0.045490"/>
 </kw>
 <doc>Test Setup</doc>
-<status status="PASS" start="2026-03-05T17:35:51.298115" elapsed="1.598059"/>
+<status status="PASS" start="2026-03-06T15:13:52.428429" elapsed="1.558231"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
 <arg>2s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2026-03-05T17:35:52.896174" elapsed="2.000379"/>
+<status status="PASS" start="2026-03-06T15:13:53.986660" elapsed="2.000664"/>
 </kw>
 <kw name="No Operation" owner="BuiltIn">
 <doc>Does absolutely nothing.</doc>
-<status status="PASS" start="2026-03-05T17:35:54.896553" elapsed="0.001000"/>
+<status status="PASS" start="2026-03-06T15:13:55.987324" elapsed="0.001000"/>
 </kw>
 <kw name="Test Teardown" owner="BaseTests" type="TEARDOWN">
 <kw name="Capture Step ScreenShot" owner="BaseSelenium">
 <kw name="Capture Page Screenshot" owner="SeleniumLibrary">
 <arg>${OUTPUT DIR}${/}${FILENAME}_${step}.png</arg>
 <doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
-<status status="PASS" start="2026-03-05T17:35:54.898554" elapsed="0.085302"/>
+<status status="PASS" start="2026-03-06T15:13:55.990322" elapsed="0.161774"/>
 </kw>
 <if>
 <branch type="IF" condition="'''${step}''' == 'FAIL'">
 <kw name="Get Source" owner="SeleniumLibrary">
 <var>${html}</var>
 <doc>Returns the entire HTML source of the current page or frame.</doc>
-<status status="NOT RUN" start="2026-03-05T17:35:54.984844" elapsed="0.000000"/>
+<status status="NOT RUN" start="2026-03-06T15:13:56.152096" elapsed="0.000000"/>
 </kw>
 <kw name="Create File" owner="OperatingSystem">
 <arg>path=${OUTPUT DIR}${/}${FILENAME}_${step}.html</arg>
 <arg>content=${html}</arg>
 <arg>encoding=UTF-8</arg>
 <doc>Creates a file with the given content and encoding.</doc>
-<status status="NOT RUN" start="2026-03-05T17:35:54.984844" elapsed="0.000000"/>
+<status status="NOT RUN" start="2026-03-06T15:13:56.152096" elapsed="0.000000"/>
 </kw>
-<status status="NOT RUN" start="2026-03-05T17:35:54.983856" elapsed="0.000988"/>
+<status status="NOT RUN" start="2026-03-06T15:13:56.152096" elapsed="0.000000"/>
 </branch>
-<status status="PASS" start="2026-03-05T17:35:54.983856" elapsed="0.000988"/>
+<status status="PASS" start="2026-03-06T15:13:56.152096" elapsed="0.000000"/>
 </if>
 <arg>${TEST_STATUS}</arg>
 <doc>Capture avec règle de nommage du fichier
 Le step permet d'identifier l'étape et de faire plusieurs captures par test</doc>
-<status status="PASS" start="2026-03-05T17:35:54.898554" elapsed="0.086290"/>
+<status status="PASS" start="2026-03-06T15:13:55.989321" elapsed="0.162775"/>
 </kw>
 <kw name="Close Browser" owner="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" start="2026-03-05T17:35:54.984844" elapsed="2.106909"/>
+<status status="PASS" start="2026-03-06T15:13:56.152096" elapsed="2.151884"/>
 </kw>
 <doc>Test Teardown</doc>
-<status status="PASS" start="2026-03-05T17:35:54.897553" elapsed="2.194200"/>
+<status status="PASS" start="2026-03-06T15:13:55.988324" elapsed="2.315656"/>
 </kw>
 <tag>browser_chrome</tag>
 <tag>env_TEST</tag>
 <tag>sanity</tag>
 <tag>type_tnr</tag>
-<status status="PASS" start="2026-03-05T17:35:51.298115" elapsed="5.793638"/>
+<status status="PASS" start="2026-03-06T15:13:52.427428" elapsed="5.876552"/>
 </test>
-<test id="s1-t2" name="Se Connecter Compte_1" line="31">
+<test id="s1-t2" name="Se Connecter Compte_1" line="34">
 <kw name="Test Setup" owner="BaseTests" type="SETUP">
 <kw name="Log To Console" owner="BuiltIn">
 <arg>${EMPTY}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2026-03-05T17:35:57.093754" elapsed="0.001011"/>
+<status status="PASS" start="2026-03-06T15:13:58.306893" elapsed="0.000997"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>================================================================== TEST SETUP</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2026-03-05T17:35:57.095752" elapsed="0.000000"/>
+<status status="PASS" start="2026-03-06T15:13:58.307890" elapsed="0.000000"/>
 </kw>
 <kw name="Clean String Filename" owner="Common">
 <var>${filename}</var>
 <arg>${TEST NAME}_Env_${ENV}_${BROWSER}_</arg>
-<status status="PASS" start="2026-03-05T17:35:57.095752" elapsed="0.001005"/>
+<status status="PASS" start="2026-03-06T15:13:58.308889" elapsed="0.000000"/>
 </kw>
 <kw name="Set Global Variable" owner="BuiltIn">
 <arg>${FILENAME}</arg>
 <arg>${filename}</arg>
 <doc>Makes a variable available globally in all tests and suites.</doc>
-<status status="PASS" start="2026-03-05T17:35:57.096757" elapsed="0.000000"/>
+<status status="PASS" start="2026-03-06T15:13:58.308889" elapsed="0.000997"/>
 </kw>
 <kw name="Register Keyword To Run On Failure" owner="SeleniumLibrary">
 <arg>NONE</arg>
 <doc>Sets the keyword to execute, when a SeleniumLibrary keyword fails.</doc>
-<status status="PASS" start="2026-03-05T17:35:57.096757" elapsed="0.000000"/>
+<status status="PASS" start="2026-03-06T15:13:58.309886" elapsed="0.000999"/>
 </kw>
 <kw name="Run Keyword" owner="BuiltIn">
 <kw name="Openchrome" owner="BaseSelenium">
@@ -620,21 +620,21 @@ Le step permet d'identifier l'étape et de faire plusieurs captures par test</do
 <arg>sys.modules['selenium.webdriver'].ChromeOptions()</arg>
 <arg>sys, selenium.webdriver</arg>
 <doc>Evaluates the given expression in Python and returns the result.</doc>
-<status status="PASS" start="2026-03-05T17:35:57.097750" elapsed="0.000000"/>
+<status status="PASS" start="2026-03-06T15:13:58.310885" elapsed="0.001000"/>
 </kw>
 <kw name="Call Method" owner="BuiltIn">
 <arg>${options}</arg>
 <arg>add_argument</arg>
 <arg>incognito</arg>
 <doc>Calls the named method of the given object with the provided arguments.</doc>
-<status status="PASS" start="2026-03-05T17:35:57.098747" elapsed="0.000000"/>
+<status status="PASS" start="2026-03-06T15:13:58.311885" elapsed="0.000998"/>
 </kw>
 <kw name="Call Method" owner="BuiltIn">
 <arg>${options}</arg>
 <arg>add_argument</arg>
 <arg>disable-search-engine-choice-screen</arg>
 <doc>Calls the named method of the given object with the provided arguments.</doc>
-<status status="PASS" start="2026-03-05T17:35:57.098747" elapsed="0.000000"/>
+<status status="PASS" start="2026-03-06T15:13:58.312883" elapsed="0.000592"/>
 </kw>
 <kw name="Create List" owner="BuiltIn">
 <var>${excludeSwitches}</var>
@@ -642,7 +642,7 @@ Le step permet d'identifier l'étape et de faire plusieurs captures par test</do
 <arg>enable-logging</arg>
 <arg>disable-popup-blocking</arg>
 <doc>Returns a list containing given items.</doc>
-<status status="PASS" start="2026-03-05T17:35:57.098747" elapsed="0.000000"/>
+<status status="PASS" start="2026-03-06T15:13:58.313475" elapsed="0.000000"/>
 </kw>
 <kw name="Call Method" owner="BuiltIn">
 <arg>${options}</arg>
@@ -650,7 +650,7 @@ Le step permet d'identifier l'étape et de faire plusieurs captures par test</do
 <arg>excludeSwitches</arg>
 <arg>${excludeSwitches}</arg>
 <doc>Calls the named method of the given object with the provided arguments.</doc>
-<status status="PASS" start="2026-03-05T17:35:57.099747" elapsed="0.000000"/>
+<status status="PASS" start="2026-03-06T15:13:58.314426" elapsed="0.000000"/>
 </kw>
 <if>
 <branch type="IF" condition="'''${BROWSER_HEADLESS}'''.upper() == 'YES'">
@@ -659,198 +659,225 @@ Le step permet d'identifier l'étape et de faire plusieurs captures par test</do
 <arg>add_argument</arg>
 <arg>headless</arg>
 <doc>Calls the named method of the given object with the provided arguments.</doc>
-<status status="PASS" start="2026-03-05T17:35:57.099747" elapsed="0.000000"/>
+<status status="NOT RUN" start="2026-03-06T15:13:58.314426" elapsed="0.000000"/>
 </kw>
-<status status="PASS" start="2026-03-05T17:35:57.099747" elapsed="0.000000"/>
+<status status="NOT RUN" start="2026-03-06T15:13:58.314426" elapsed="0.000000"/>
 </branch>
-<status status="PASS" start="2026-03-05T17:35:57.099747" elapsed="0.000000"/>
+<status status="PASS" start="2026-03-06T15:13:58.314426" elapsed="0.001017"/>
 </if>
 <kw name="Open Browser" owner="SeleniumLibrary">
 <arg>url=${URL_DIGITALBANK_${ENV}}</arg>
 <arg>browser=chrome</arg>
 <arg>options=${options}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2026-03-05T17:35:57.099747" elapsed="1.421350"/>
+<status status="PASS" start="2026-03-06T15:13:58.315443" elapsed="1.455571"/>
 </kw>
 <doc>Openchrome</doc>
-<status status="PASS" start="2026-03-05T17:35:57.097750" elapsed="1.423347"/>
+<status status="PASS" start="2026-03-06T15:13:58.310885" elapsed="1.460129"/>
 </kw>
 <arg>Open${BROWSER}</arg>
 <doc>Executes the given keyword with the given arguments.</doc>
-<status status="PASS" start="2026-03-05T17:35:57.096757" elapsed="1.424340"/>
+<status status="PASS" start="2026-03-06T15:13:58.310885" elapsed="1.460129"/>
 </kw>
 <kw name="Set Selenium Implicit Wait" owner="SeleniumLibrary">
 <arg>${IMPLICIT_WAIT}</arg>
 <doc>Sets the implicit wait value used by Selenium.</doc>
-<status status="PASS" start="2026-03-05T17:35:58.522077" elapsed="0.000994"/>
+<status status="PASS" start="2026-03-06T15:13:59.771805" elapsed="0.002252"/>
 </kw>
 <kw name="Maximize Browser Window" owner="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" start="2026-03-05T17:35:58.524074" elapsed="0.021138"/>
+<status status="PASS" start="2026-03-06T15:13:59.774057" elapsed="0.039909"/>
 </kw>
 <doc>Test Setup</doc>
-<status status="PASS" start="2026-03-05T17:35:57.093754" elapsed="1.451458"/>
+<status status="PASS" start="2026-03-06T15:13:58.305891" elapsed="1.508075"/>
 </kw>
 <kw name="Charger Donnees Compte" owner="StepConnexion">
 <kw name="Load Json From File" owner="JSONLibrary">
 <var>${data}</var>
 <arg>${JSON_FILE_PATH}</arg>
 <doc>Load JSON from file.</doc>
-<status status="PASS" start="2026-03-05T17:35:58.546211" elapsed="0.000000"/>
+<status status="PASS" start="2026-03-06T15:13:59.817657" elapsed="0.000796"/>
 </kw>
 <kw name="Get From Dictionary" owner="Collections">
 <var>${compte_0}</var>
 <arg>${data}</arg>
 <arg>${compte}</arg>
 <doc>Returns a value from the given ``dictionary`` based on the given ``key``.</doc>
-<status status="PASS" start="2026-03-05T17:35:58.546211" elapsed="0.001012"/>
+<status status="PASS" start="2026-03-06T15:13:59.818613" elapsed="0.000000"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Compte : ${compte}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2026-03-05T17:35:58.547223" elapsed="0.000000"/>
+<status status="PASS" start="2026-03-06T15:13:59.818613" elapsed="0.000608"/>
 </kw>
 <return>
 <value>${compte_0}</value>
-<status status="PASS" start="2026-03-05T17:35:58.547223" elapsed="0.000000"/>
+<status status="PASS" start="2026-03-06T15:13:59.819221" elapsed="0.000527"/>
 </return>
 <var>${compte_1}</var>
 <arg>compte_1</arg>
 <doc>Charger les données depuis le fichier JSON</doc>
-<status status="PASS" start="2026-03-05T17:35:58.545212" elapsed="0.003002"/>
+<status status="PASS" start="2026-03-06T15:13:59.816964" elapsed="0.002862"/>
 </kw>
 <kw name="Se Connecter" owner="StepConnexion">
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Se connecter ${compte}[username]</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2026-03-05T17:35:58.548214" elapsed="0.001001"/>
+<status status="PASS" start="2026-03-06T15:13:59.820451" elapsed="0.000613"/>
 </kw>
 <kw name="Set Username" owner="PageConnexion">
 <kw name="Input Text" owner="SeleniumLibrary">
-<arg>xpath=//input[@id="email" and @type="email"]</arg>
+<arg>${LOCATOR_INPUT_USERNAME}</arg>
 <arg>${texte}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2026-03-05T17:35:58.549215" elapsed="0.141384"/>
+<status status="PASS" start="2026-03-06T15:13:59.821064" elapsed="0.207827"/>
 </kw>
 <arg>${compte}[username]</arg>
-<status status="PASS" start="2026-03-05T17:35:58.549215" elapsed="0.141384"/>
+<status status="PASS" start="2026-03-06T15:13:59.821064" elapsed="0.207827"/>
 </kw>
 <kw name="Set Password" owner="PageConnexion">
 <kw name="Input Password" owner="SeleniumLibrary">
-<arg>xpath=//input[@id="password" and @type="password"]</arg>
+<arg>${LOCATOR_INPUT_PASSWORD}</arg>
 <arg>${texte}</arg>
 <doc>Types the given password into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2026-03-05T17:35:58.690599" elapsed="0.076017"/>
+<status status="PASS" start="2026-03-06T15:14:00.030890" elapsed="0.126669"/>
 </kw>
 <arg>${compte}[password]</arg>
-<status status="PASS" start="2026-03-05T17:35:58.690599" elapsed="0.077003"/>
+<status status="PASS" start="2026-03-06T15:14:00.029892" elapsed="0.128661"/>
 </kw>
 <kw name="Sign In" owner="PageConnexion">
 <kw name="Click Element" owner="SeleniumLibrary">
-<arg>xpath=//button[contains(text(), "Se connecter")]</arg>
+<arg>${LOCATOR_BUTTON_CONNECTION}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2026-03-05T17:35:58.767602" elapsed="0.093554"/>
+<status status="PASS" start="2026-03-06T15:14:00.158553" elapsed="0.096005"/>
 </kw>
-<status status="PASS" start="2026-03-05T17:35:58.767602" elapsed="0.094552"/>
+<status status="PASS" start="2026-03-06T15:14:00.158553" elapsed="0.096005"/>
 </kw>
 <arg>${compte_1}</arg>
 <doc>Se Connecter</doc>
-<status status="PASS" start="2026-03-05T17:35:58.548214" elapsed="0.313940"/>
+<status status="PASS" start="2026-03-06T15:13:59.819826" elapsed="0.435725"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
 <arg>2s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2026-03-05T17:35:58.862154" elapsed="2.001460"/>
+<status status="PASS" start="2026-03-06T15:14:00.255551" elapsed="2.001124"/>
 </kw>
 <kw name="Verifier Connexion Ok" owner="StepConnexion">
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Verifier Connexion Ok ${compte}[username]</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2026-03-05T17:36:00.864618" elapsed="0.000000"/>
+<status status="PASS" start="2026-03-06T15:14:02.257677" elapsed="0.000000"/>
 </kw>
-<kw name="Check Connection Ok" owner="BasePages">
+<kw name="Check Connection Ok" owner="PageConnexion">
 <kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
 <arg>${LOCATOR_CHECK_CONNECTION_OK}</arg>
 <doc>Waits until the element ``locator`` appears on the current page.</doc>
-<status status="PASS" start="2026-03-05T17:36:00.865619" elapsed="0.010843"/>
+<status status="PASS" start="2026-03-06T15:14:02.258686" elapsed="0.011016"/>
 </kw>
 <kw name="Get Text" owner="SeleniumLibrary">
 <var>${actual_text}</var>
 <arg>${LOCATOR_CHECK_CONNECTION_OK}</arg>
 <doc>Returns the text value of the element identified by ``locator``.</doc>
-<status status="PASS" start="2026-03-05T17:36:00.876462" elapsed="0.019186"/>
+<status status="PASS" start="2026-03-06T15:14:02.269702" elapsed="0.019030"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Texte attendu : ${texte}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2026-03-05T17:36:00.896654" elapsed="0.000000"/>
+<status status="PASS" start="2026-03-06T15:14:02.288732" elapsed="0.000988"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Texte récupéré : ${actual_text}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2026-03-05T17:36:00.896654" elapsed="0.001002"/>
+<status status="PASS" start="2026-03-06T15:14:02.289720" elapsed="0.000000"/>
 </kw>
 <kw name="Run Keyword And Continue On Failure" owner="BuiltIn">
 <kw name="Should Be Equal" owner="BuiltIn">
 <arg>${texte}</arg>
 <arg>${actual_text}</arg>
 <doc>Fails if the given objects are unequal.</doc>
-<status status="PASS" start="2026-03-05T17:36:00.898654" elapsed="0.000000"/>
+<status status="PASS" start="2026-03-06T15:14:02.290719" elapsed="0.000000"/>
 </kw>
 <arg>Should Be Equal</arg>
 <arg>${texte}</arg>
 <arg>${actual_text}</arg>
 <doc>Runs the keyword and continues execution even if a failure occurs.</doc>
-<status status="PASS" start="2026-03-05T17:36:00.897656" elapsed="0.000998"/>
+<status status="PASS" start="2026-03-06T15:14:02.290719" elapsed="0.000000"/>
 </kw>
 <arg>Mes Comptes</arg>
-<status status="PASS" start="2026-03-05T17:36:00.864618" elapsed="0.034036"/>
+<status status="PASS" start="2026-03-06T15:14:02.258686" elapsed="0.032033"/>
 </kw>
 <arg>${compte_1}</arg>
 <doc>Verifier Connexion Ok</doc>
-<status status="PASS" start="2026-03-05T17:36:00.863614" elapsed="0.035040"/>
+<status status="PASS" start="2026-03-06T15:14:02.256675" elapsed="0.035043"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
 <arg>2s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2026-03-05T17:36:00.898654" elapsed="2.000087"/>
+<status status="PASS" start="2026-03-06T15:14:02.291718" elapsed="2.000098"/>
+</kw>
+<kw name="Se Deconnecter" owner="StepConnexion">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Se Deconnecter</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-03-06T15:14:04.291816" elapsed="0.001424"/>
+</kw>
+<kw name="Sign Out" owner="PageConnexion">
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>${LOCATOR_BUTTON_DISCONNECTION}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-03-06T15:14:04.293240" elapsed="0.060545"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>${LOCATOR_CHECK_LOGIN}</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2026-03-06T15:14:04.353785" elapsed="0.011592"/>
+</kw>
+<status status="PASS" start="2026-03-06T15:14:04.293240" elapsed="0.072137"/>
+</kw>
+<doc>Se Deconnecter</doc>
+<status status="PASS" start="2026-03-06T15:14:04.291816" elapsed="0.073561"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-03-06T15:14:04.365377" elapsed="2.001141"/>
 </kw>
 <kw name="Test Teardown" owner="BaseTests" type="TEARDOWN">
 <kw name="Capture Step ScreenShot" owner="BaseSelenium">
 <kw name="Capture Page Screenshot" owner="SeleniumLibrary">
 <arg>${OUTPUT DIR}${/}${FILENAME}_${step}.png</arg>
 <doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
-<status status="PASS" start="2026-03-05T17:36:02.899761" elapsed="0.077784"/>
+<status status="PASS" start="2026-03-06T15:14:06.367590" elapsed="0.153316"/>
 </kw>
 <if>
 <branch type="IF" condition="'''${step}''' == 'FAIL'">
 <kw name="Get Source" owner="SeleniumLibrary">
 <var>${html}</var>
 <doc>Returns the entire HTML source of the current page or frame.</doc>
-<status status="NOT RUN" start="2026-03-05T17:36:02.978542" elapsed="0.000000"/>
+<status status="NOT RUN" start="2026-03-06T15:14:06.521898" elapsed="0.000000"/>
 </kw>
 <kw name="Create File" owner="OperatingSystem">
 <arg>path=${OUTPUT DIR}${/}${FILENAME}_${step}.html</arg>
 <arg>content=${html}</arg>
 <arg>encoding=UTF-8</arg>
 <doc>Creates a file with the given content and encoding.</doc>
-<status status="NOT RUN" start="2026-03-05T17:36:02.978542" elapsed="0.000000"/>
+<status status="NOT RUN" start="2026-03-06T15:14:06.521898" elapsed="0.000000"/>
 </kw>
-<status status="NOT RUN" start="2026-03-05T17:36:02.977545" elapsed="0.000997"/>
+<status status="NOT RUN" start="2026-03-06T15:14:06.520906" elapsed="0.000992"/>
 </branch>
-<status status="PASS" start="2026-03-05T17:36:02.977545" elapsed="0.000997"/>
+<status status="PASS" start="2026-03-06T15:14:06.520906" elapsed="0.000992"/>
 </if>
 <arg>${TEST_STATUS}</arg>
 <doc>Capture avec règle de nommage du fichier
 Le step permet d'identifier l'étape et de faire plusieurs captures par test</doc>
-<status status="PASS" start="2026-03-05T17:36:02.899761" elapsed="0.078781"/>
+<status status="PASS" start="2026-03-06T15:14:06.367590" elapsed="0.154308"/>
 </kw>
 <kw name="Close Browser" owner="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" start="2026-03-05T17:36:02.978542" elapsed="2.145621"/>
+<status status="PASS" start="2026-03-06T15:14:06.521898" elapsed="2.170182"/>
 </kw>
 <doc>Test Teardown</doc>
-<status status="PASS" start="2026-03-05T17:36:02.898741" elapsed="2.225422"/>
+<status status="PASS" start="2026-03-06T15:14:06.366518" elapsed="2.325562"/>
 </kw>
 <doc>Se Connecter Compte_1</doc>
 <tag>browser_chrome</tag>
@@ -859,35 +886,35 @@ Le step permet d'identifier l'étape et de faire plusieurs captures par test</do
 <tag>jira_01</tag>
 <tag>test_positive</tag>
 <tag>type_tnr</tag>
-<status status="PASS" start="2026-03-05T17:35:57.092758" elapsed="8.031405"/>
+<status status="PASS" start="2026-03-06T15:13:58.305891" elapsed="10.386737"/>
 </test>
-<test id="s1-t3" name="Se Deconnecter Compte_1" line="40">
+<test id="s1-t3" name="Se Connecter Compte_2" line="46">
 <kw name="Test Setup" owner="BaseTests" type="SETUP">
 <kw name="Log To Console" owner="BuiltIn">
 <arg>${EMPTY}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2026-03-05T17:36:05.126102" elapsed="0.000992"/>
+<status status="PASS" start="2026-03-06T15:14:08.695356" elapsed="0.001361"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>================================================================== TEST SETUP</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2026-03-05T17:36:05.127094" elapsed="0.001373"/>
+<status status="PASS" start="2026-03-06T15:14:08.696962" elapsed="0.000692"/>
 </kw>
 <kw name="Clean String Filename" owner="Common">
 <var>${filename}</var>
 <arg>${TEST NAME}_Env_${ENV}_${BROWSER}_</arg>
-<status status="PASS" start="2026-03-05T17:36:05.128467" elapsed="0.000000"/>
+<status status="PASS" start="2026-03-06T15:14:08.697654" elapsed="0.000718"/>
 </kw>
 <kw name="Set Global Variable" owner="BuiltIn">
 <arg>${FILENAME}</arg>
 <arg>${filename}</arg>
 <doc>Makes a variable available globally in all tests and suites.</doc>
-<status status="PASS" start="2026-03-05T17:36:05.128467" elapsed="0.001053"/>
+<status status="PASS" start="2026-03-06T15:14:08.699014" elapsed="0.000792"/>
 </kw>
 <kw name="Register Keyword To Run On Failure" owner="SeleniumLibrary">
 <arg>NONE</arg>
 <doc>Sets the keyword to execute, when a SeleniumLibrary keyword fails.</doc>
-<status status="PASS" start="2026-03-05T17:36:05.129520" elapsed="0.000000"/>
+<status status="PASS" start="2026-03-06T15:14:08.699999" elapsed="0.000230"/>
 </kw>
 <kw name="Run Keyword" owner="BuiltIn">
 <kw name="Openchrome" owner="BaseSelenium">
@@ -896,21 +923,21 @@ Le step permet d'identifier l'étape et de faire plusieurs captures par test</do
 <arg>sys.modules['selenium.webdriver'].ChromeOptions()</arg>
 <arg>sys, selenium.webdriver</arg>
 <doc>Evaluates the given expression in Python and returns the result.</doc>
-<status status="PASS" start="2026-03-05T17:36:05.130515" elapsed="0.000000"/>
+<status status="PASS" start="2026-03-06T15:14:08.701372" elapsed="0.000576"/>
 </kw>
 <kw name="Call Method" owner="BuiltIn">
 <arg>${options}</arg>
 <arg>add_argument</arg>
 <arg>incognito</arg>
 <doc>Calls the named method of the given object with the provided arguments.</doc>
-<status status="PASS" start="2026-03-05T17:36:05.130515" elapsed="0.001000"/>
+<status status="PASS" start="2026-03-06T15:14:08.701948" elapsed="0.000704"/>
 </kw>
 <kw name="Call Method" owner="BuiltIn">
 <arg>${options}</arg>
 <arg>add_argument</arg>
 <arg>disable-search-engine-choice-screen</arg>
 <doc>Calls the named method of the given object with the provided arguments.</doc>
-<status status="PASS" start="2026-03-05T17:36:05.131515" elapsed="0.000000"/>
+<status status="PASS" start="2026-03-06T15:14:08.702986" elapsed="0.000437"/>
 </kw>
 <kw name="Create List" owner="BuiltIn">
 <var>${excludeSwitches}</var>
@@ -918,7 +945,7 @@ Le step permet d'identifier l'étape et de faire plusieurs captures par test</do
 <arg>enable-logging</arg>
 <arg>disable-popup-blocking</arg>
 <doc>Returns a list containing given items.</doc>
-<status status="PASS" start="2026-03-05T17:36:05.131515" elapsed="0.000000"/>
+<status status="PASS" start="2026-03-06T15:14:08.703511" elapsed="0.000000"/>
 </kw>
 <kw name="Call Method" owner="BuiltIn">
 <arg>${options}</arg>
@@ -926,7 +953,7 @@ Le step permet d'identifier l'étape et de faire plusieurs captures par test</do
 <arg>excludeSwitches</arg>
 <arg>${excludeSwitches}</arg>
 <doc>Calls the named method of the given object with the provided arguments.</doc>
-<status status="PASS" start="2026-03-05T17:36:05.131515" elapsed="0.001062"/>
+<status status="PASS" start="2026-03-06T15:14:08.704077" elapsed="0.000228"/>
 </kw>
 <if>
 <branch type="IF" condition="'''${BROWSER_HEADLESS}'''.upper() == 'YES'">
@@ -935,512 +962,685 @@ Le step permet d'identifier l'étape et de faire plusieurs captures par test</do
 <arg>add_argument</arg>
 <arg>headless</arg>
 <doc>Calls the named method of the given object with the provided arguments.</doc>
-<status status="PASS" start="2026-03-05T17:36:05.132577" elapsed="0.000000"/>
+<status status="NOT RUN" start="2026-03-06T15:14:08.704848" elapsed="0.000029"/>
 </kw>
-<status status="PASS" start="2026-03-05T17:36:05.132577" elapsed="0.000000"/>
+<status status="NOT RUN" start="2026-03-06T15:14:08.704305" elapsed="0.000572"/>
 </branch>
-<status status="PASS" start="2026-03-05T17:36:05.132577" elapsed="0.000000"/>
+<status status="PASS" start="2026-03-06T15:14:08.704305" elapsed="0.000572"/>
 </if>
 <kw name="Open Browser" owner="SeleniumLibrary">
 <arg>url=${URL_DIGITALBANK_${ENV}}</arg>
 <arg>browser=chrome</arg>
 <arg>options=${options}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2026-03-05T17:36:05.132577" elapsed="1.487677"/>
+<status status="PASS" start="2026-03-06T15:14:08.704877" elapsed="1.279358"/>
 </kw>
 <doc>Openchrome</doc>
-<status status="PASS" start="2026-03-05T17:36:05.129520" elapsed="1.490734"/>
+<status status="PASS" start="2026-03-06T15:14:08.700655" elapsed="1.283580"/>
 </kw>
 <arg>Open${BROWSER}</arg>
 <doc>Executes the given keyword with the given arguments.</doc>
-<status status="PASS" start="2026-03-05T17:36:05.129520" elapsed="1.490734"/>
+<status status="PASS" start="2026-03-06T15:14:08.700439" elapsed="1.283796"/>
 </kw>
 <kw name="Set Selenium Implicit Wait" owner="SeleniumLibrary">
 <arg>${IMPLICIT_WAIT}</arg>
 <doc>Sets the implicit wait value used by Selenium.</doc>
-<status status="PASS" start="2026-03-05T17:36:06.620254" elapsed="0.002130"/>
+<status status="PASS" start="2026-03-06T15:14:09.985238" elapsed="0.002996"/>
 </kw>
 <kw name="Maximize Browser Window" owner="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" start="2026-03-05T17:36:06.622384" elapsed="0.032220"/>
+<status status="PASS" start="2026-03-06T15:14:09.988234" elapsed="0.243603"/>
 </kw>
 <doc>Test Setup</doc>
-<status status="PASS" start="2026-03-05T17:36:05.126102" elapsed="1.528502"/>
+<status status="PASS" start="2026-03-06T15:14:08.694358" elapsed="1.537479"/>
 </kw>
 <kw name="Charger Donnees Compte" owner="StepConnexion">
 <kw name="Load Json From File" owner="JSONLibrary">
 <var>${data}</var>
 <arg>${JSON_FILE_PATH}</arg>
 <doc>Load JSON from file.</doc>
-<status status="PASS" start="2026-03-05T17:36:06.655600" elapsed="0.000000"/>
+<status status="PASS" start="2026-03-06T15:14:10.232827" elapsed="0.001003"/>
 </kw>
 <kw name="Get From Dictionary" owner="Collections">
 <var>${compte_0}</var>
 <arg>${data}</arg>
 <arg>${compte}</arg>
 <doc>Returns a value from the given ``dictionary`` based on the given ``key``.</doc>
-<status status="PASS" start="2026-03-05T17:36:06.656595" elapsed="0.000000"/>
+<status status="PASS" start="2026-03-06T15:14:10.233830" elapsed="0.000000"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Compte : ${compte}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2026-03-05T17:36:06.656595" elapsed="0.000000"/>
+<status status="PASS" start="2026-03-06T15:14:10.233830" elapsed="0.000998"/>
 </kw>
 <return>
 <value>${compte_0}</value>
-<status status="PASS" start="2026-03-05T17:36:06.657604" elapsed="0.000000"/>
-</return>
-<var>${compte_1}</var>
-<arg>compte_1</arg>
-<doc>Charger les données depuis le fichier JSON</doc>
-<status status="PASS" start="2026-03-05T17:36:06.655600" elapsed="0.002004"/>
-</kw>
-<kw name="Se Connecter" owner="StepConnexion">
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Se connecter ${compte}[username]</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2026-03-05T17:36:06.657604" elapsed="0.000989"/>
-</kw>
-<kw name="Set Username" owner="PageConnexion">
-<kw name="Input Text" owner="SeleniumLibrary">
-<arg>xpath=//input[@id="email" and @type="email"]</arg>
-<arg>${texte}</arg>
-<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2026-03-05T17:36:06.658593" elapsed="0.101373"/>
-</kw>
-<arg>${compte}[username]</arg>
-<status status="PASS" start="2026-03-05T17:36:06.658593" elapsed="0.101373"/>
-</kw>
-<kw name="Set Password" owner="PageConnexion">
-<kw name="Input Password" owner="SeleniumLibrary">
-<arg>xpath=//input[@id="password" and @type="password"]</arg>
-<arg>${texte}</arg>
-<doc>Types the given password into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2026-03-05T17:36:06.759966" elapsed="0.081165"/>
-</kw>
-<arg>${compte}[password]</arg>
-<status status="PASS" start="2026-03-05T17:36:06.759966" elapsed="0.081266"/>
-</kw>
-<kw name="Sign In" owner="PageConnexion">
-<kw name="Click Element" owner="SeleniumLibrary">
-<arg>xpath=//button[contains(text(), "Se connecter")]</arg>
-<doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2026-03-05T17:36:06.841782" elapsed="0.093136"/>
-</kw>
-<status status="PASS" start="2026-03-05T17:36:06.841232" elapsed="0.093686"/>
-</kw>
-<arg>${compte_1}</arg>
-<doc>Se Connecter</doc>
-<status status="PASS" start="2026-03-05T17:36:06.657604" elapsed="0.278207"/>
-</kw>
-<kw name="Sleep" owner="BuiltIn">
-<arg>2s</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2026-03-05T17:36:06.935811" elapsed="2.001431"/>
-</kw>
-<kw name="Verifier Connexion Ok" owner="StepConnexion">
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Verifier Connexion Ok ${compte}[username]</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2026-03-05T17:36:08.938244" elapsed="0.000000"/>
-</kw>
-<kw name="Check Connection Ok" owner="BasePages">
-<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
-<arg>${LOCATOR_CHECK_CONNECTION_OK}</arg>
-<doc>Waits until the element ``locator`` appears on the current page.</doc>
-<status status="PASS" start="2026-03-05T17:36:08.939246" elapsed="0.010596"/>
-</kw>
-<kw name="Get Text" owner="SeleniumLibrary">
-<var>${actual_text}</var>
-<arg>${LOCATOR_CHECK_CONNECTION_OK}</arg>
-<doc>Returns the text value of the element identified by ``locator``.</doc>
-<status status="PASS" start="2026-03-05T17:36:08.949842" elapsed="0.021030"/>
-</kw>
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Texte attendu : ${texte}</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2026-03-05T17:36:08.970872" elapsed="0.000564"/>
-</kw>
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Texte récupéré : ${actual_text}</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2026-03-05T17:36:08.971996" elapsed="0.000546"/>
-</kw>
-<kw name="Run Keyword And Continue On Failure" owner="BuiltIn">
-<kw name="Should Be Equal" owner="BuiltIn">
-<arg>${texte}</arg>
-<arg>${actual_text}</arg>
-<doc>Fails if the given objects are unequal.</doc>
-<status status="PASS" start="2026-03-05T17:36:08.973387" elapsed="0.000498"/>
-</kw>
-<arg>Should Be Equal</arg>
-<arg>${texte}</arg>
-<arg>${actual_text}</arg>
-<doc>Runs the keyword and continues execution even if a failure occurs.</doc>
-<status status="PASS" start="2026-03-05T17:36:08.972542" elapsed="0.001457"/>
-</kw>
-<arg>Mes Comptes</arg>
-<status status="PASS" start="2026-03-05T17:36:08.938244" elapsed="0.035866"/>
-</kw>
-<arg>${compte_1}</arg>
-<doc>Verifier Connexion Ok</doc>
-<status status="PASS" start="2026-03-05T17:36:08.937242" elapsed="0.036987"/>
-</kw>
-<kw name="Sleep" owner="BuiltIn">
-<arg>2s</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2026-03-05T17:36:08.974358" elapsed="2.000082"/>
-</kw>
-<kw name="Se Deconnecter" owner="StepConnexion">
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Se Deconnecter</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2026-03-05T17:36:10.975495" elapsed="0.000534"/>
-</kw>
-<kw name="Log Off" owner="BasePages">
-<kw name="Click Element" owner="SeleniumLibrary">
-<arg>${LOCATOR_BUTTON_DISCONNECTION}</arg>
-<doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2026-03-05T17:36:10.976064" elapsed="0.061327"/>
-</kw>
-<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
-<arg>${LOCATOR_CHECK_LOGIN}</arg>
-<doc>Waits until the element ``locator`` appears on the current page.</doc>
-<status status="PASS" start="2026-03-05T17:36:11.037391" elapsed="0.011178"/>
-</kw>
-<status status="PASS" start="2026-03-05T17:36:10.976064" elapsed="0.072505"/>
-</kw>
-<doc>Se Deconnecter</doc>
-<status status="PASS" start="2026-03-05T17:36:10.974440" elapsed="0.074129"/>
-</kw>
-<kw name="Sleep" owner="BuiltIn">
-<arg>2s</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2026-03-05T17:36:11.049583" elapsed="2.000718"/>
-</kw>
-<kw name="Test Teardown" owner="BaseTests" type="TEARDOWN">
-<kw name="Capture Step ScreenShot" owner="BaseSelenium">
-<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
-<arg>${OUTPUT DIR}${/}${FILENAME}_${step}.png</arg>
-<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
-<status status="PASS" start="2026-03-05T17:36:13.051307" elapsed="0.062711"/>
-</kw>
-<if>
-<branch type="IF" condition="'''${step}''' == 'FAIL'">
-<kw name="Get Source" owner="SeleniumLibrary">
-<var>${html}</var>
-<doc>Returns the entire HTML source of the current page or frame.</doc>
-<status status="NOT RUN" start="2026-03-05T17:36:13.115019" elapsed="0.000000"/>
-</kw>
-<kw name="Create File" owner="OperatingSystem">
-<arg>path=${OUTPUT DIR}${/}${FILENAME}_${step}.html</arg>
-<arg>content=${html}</arg>
-<arg>encoding=UTF-8</arg>
-<doc>Creates a file with the given content and encoding.</doc>
-<status status="NOT RUN" start="2026-03-05T17:36:13.115019" elapsed="0.000000"/>
-</kw>
-<status status="NOT RUN" start="2026-03-05T17:36:13.115019" elapsed="0.000000"/>
-</branch>
-<status status="PASS" start="2026-03-05T17:36:13.115019" elapsed="0.000000"/>
-</if>
-<arg>${TEST_STATUS}</arg>
-<doc>Capture avec règle de nommage du fichier
-Le step permet d'identifier l'étape et de faire plusieurs captures par test</doc>
-<status status="PASS" start="2026-03-05T17:36:13.051307" elapsed="0.063712"/>
-</kw>
-<kw name="Close Browser" owner="SeleniumLibrary">
-<doc>Closes the current browser.</doc>
-<status status="PASS" start="2026-03-05T17:36:13.115019" elapsed="2.115234"/>
-</kw>
-<doc>Test Teardown</doc>
-<status status="PASS" start="2026-03-05T17:36:13.050301" elapsed="2.179952"/>
-</kw>
-<doc>Se Déconnecter Compte_1</doc>
-<tag>browser_chrome</tag>
-<tag>dev_done</tag>
-<tag>env_TEST</tag>
-<tag>jira_02</tag>
-<tag>test_positive</tag>
-<tag>type_tnr</tag>
-<status status="PASS" start="2026-03-05T17:36:05.126102" elapsed="10.105086"/>
-</test>
-<test id="s1-t4" name="Se Connecter Compte_2" line="51">
-<kw name="Test Setup" owner="BaseTests" type="SETUP">
-<kw name="Log To Console" owner="BuiltIn">
-<arg>${EMPTY}</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2026-03-05T17:36:15.233189" elapsed="0.000995"/>
-</kw>
-<kw name="Log To Console" owner="BuiltIn">
-<arg>================================================================== TEST SETUP</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2026-03-05T17:36:15.234184" elapsed="0.000667"/>
-</kw>
-<kw name="Clean String Filename" owner="Common">
-<var>${filename}</var>
-<arg>${TEST NAME}_Env_${ENV}_${BROWSER}_</arg>
-<status status="PASS" start="2026-03-05T17:36:15.234851" elapsed="0.000000"/>
-</kw>
-<kw name="Set Global Variable" owner="BuiltIn">
-<arg>${FILENAME}</arg>
-<arg>${filename}</arg>
-<doc>Makes a variable available globally in all tests and suites.</doc>
-<status status="PASS" start="2026-03-05T17:36:15.234851" elapsed="0.000000"/>
-</kw>
-<kw name="Register Keyword To Run On Failure" owner="SeleniumLibrary">
-<arg>NONE</arg>
-<doc>Sets the keyword to execute, when a SeleniumLibrary keyword fails.</doc>
-<status status="PASS" start="2026-03-05T17:36:15.235902" elapsed="0.000000"/>
-</kw>
-<kw name="Run Keyword" owner="BuiltIn">
-<kw name="Openchrome" owner="BaseSelenium">
-<kw name="Evaluate" owner="BuiltIn">
-<var>${options}</var>
-<arg>sys.modules['selenium.webdriver'].ChromeOptions()</arg>
-<arg>sys, selenium.webdriver</arg>
-<doc>Evaluates the given expression in Python and returns the result.</doc>
-<status status="PASS" start="2026-03-05T17:36:15.236902" elapsed="0.000000"/>
-</kw>
-<kw name="Call Method" owner="BuiltIn">
-<arg>${options}</arg>
-<arg>add_argument</arg>
-<arg>incognito</arg>
-<doc>Calls the named method of the given object with the provided arguments.</doc>
-<status status="PASS" start="2026-03-05T17:36:15.236902" elapsed="0.000000"/>
-</kw>
-<kw name="Call Method" owner="BuiltIn">
-<arg>${options}</arg>
-<arg>add_argument</arg>
-<arg>disable-search-engine-choice-screen</arg>
-<doc>Calls the named method of the given object with the provided arguments.</doc>
-<status status="PASS" start="2026-03-05T17:36:15.236902" elapsed="0.000000"/>
-</kw>
-<kw name="Create List" owner="BuiltIn">
-<var>${excludeSwitches}</var>
-<arg>enable-automation</arg>
-<arg>enable-logging</arg>
-<arg>disable-popup-blocking</arg>
-<doc>Returns a list containing given items.</doc>
-<status status="PASS" start="2026-03-05T17:36:15.237918" elapsed="0.000000"/>
-</kw>
-<kw name="Call Method" owner="BuiltIn">
-<arg>${options}</arg>
-<arg>add_experimental_option</arg>
-<arg>excludeSwitches</arg>
-<arg>${excludeSwitches}</arg>
-<doc>Calls the named method of the given object with the provided arguments.</doc>
-<status status="PASS" start="2026-03-05T17:36:15.237918" elapsed="0.000000"/>
-</kw>
-<if>
-<branch type="IF" condition="'''${BROWSER_HEADLESS}'''.upper() == 'YES'">
-<kw name="Call Method" owner="BuiltIn">
-<arg>${options}</arg>
-<arg>add_argument</arg>
-<arg>headless</arg>
-<doc>Calls the named method of the given object with the provided arguments.</doc>
-<status status="PASS" start="2026-03-05T17:36:15.238904" elapsed="0.000000"/>
-</kw>
-<status status="PASS" start="2026-03-05T17:36:15.238904" elapsed="0.000000"/>
-</branch>
-<status status="PASS" start="2026-03-05T17:36:15.237918" elapsed="0.000986"/>
-</if>
-<kw name="Open Browser" owner="SeleniumLibrary">
-<arg>url=${URL_DIGITALBANK_${ENV}}</arg>
-<arg>browser=chrome</arg>
-<arg>options=${options}</arg>
-<doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2026-03-05T17:36:15.238904" elapsed="1.438910"/>
-</kw>
-<doc>Openchrome</doc>
-<status status="PASS" start="2026-03-05T17:36:15.235902" elapsed="1.442933"/>
-</kw>
-<arg>Open${BROWSER}</arg>
-<doc>Executes the given keyword with the given arguments.</doc>
-<status status="PASS" start="2026-03-05T17:36:15.235902" elapsed="1.442933"/>
-</kw>
-<kw name="Set Selenium Implicit Wait" owner="SeleniumLibrary">
-<arg>${IMPLICIT_WAIT}</arg>
-<doc>Sets the implicit wait value used by Selenium.</doc>
-<status status="PASS" start="2026-03-05T17:36:16.678835" elapsed="0.000981"/>
-</kw>
-<kw name="Maximize Browser Window" owner="SeleniumLibrary">
-<doc>Maximizes current browser window.</doc>
-<status status="PASS" start="2026-03-05T17:36:16.680816" elapsed="0.033154"/>
-</kw>
-<doc>Test Setup</doc>
-<status status="PASS" start="2026-03-05T17:36:15.232249" elapsed="1.481721"/>
-</kw>
-<kw name="Charger Donnees Compte" owner="StepConnexion">
-<kw name="Load Json From File" owner="JSONLibrary">
-<var>${data}</var>
-<arg>${JSON_FILE_PATH}</arg>
-<doc>Load JSON from file.</doc>
-<status status="PASS" start="2026-03-05T17:36:16.714968" elapsed="0.000000"/>
-</kw>
-<kw name="Get From Dictionary" owner="Collections">
-<var>${compte_0}</var>
-<arg>${data}</arg>
-<arg>${compte}</arg>
-<doc>Returns a value from the given ``dictionary`` based on the given ``key``.</doc>
-<status status="PASS" start="2026-03-05T17:36:16.714968" elapsed="0.000000"/>
-</kw>
-<kw name="Log To Console" owner="BuiltIn">
-<arg>Compte : ${compte}</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2026-03-05T17:36:16.715976" elapsed="0.000000"/>
-</kw>
-<return>
-<value>${compte_0}</value>
-<status status="PASS" start="2026-03-05T17:36:16.715976" elapsed="0.000000"/>
+<status status="PASS" start="2026-03-06T15:14:10.235825" elapsed="0.000000"/>
 </return>
 <var>${compte_2}</var>
 <arg>compte_2</arg>
 <doc>Charger les données depuis le fichier JSON</doc>
-<status status="PASS" start="2026-03-05T17:36:16.713970" elapsed="0.002006"/>
+<status status="PASS" start="2026-03-06T15:14:10.232827" elapsed="0.003687"/>
 </kw>
 <kw name="Se Connecter" owner="StepConnexion">
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Se connecter ${compte}[username]</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2026-03-05T17:36:16.716971" elapsed="0.000000"/>
+<status status="PASS" start="2026-03-06T15:14:10.237074" elapsed="0.000994"/>
 </kw>
 <kw name="Set Username" owner="PageConnexion">
 <kw name="Input Text" owner="SeleniumLibrary">
-<arg>xpath=//input[@id="email" and @type="email"]</arg>
+<arg>${LOCATOR_INPUT_USERNAME}</arg>
 <arg>${texte}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2026-03-05T17:36:16.717970" elapsed="0.106275"/>
+<status status="PASS" start="2026-03-06T15:14:10.238068" elapsed="0.121395"/>
 </kw>
 <arg>${compte}[username]</arg>
-<status status="PASS" start="2026-03-05T17:36:16.717970" elapsed="0.106275"/>
+<status status="PASS" start="2026-03-06T15:14:10.238068" elapsed="0.121395"/>
 </kw>
 <kw name="Set Password" owner="PageConnexion">
 <kw name="Input Password" owner="SeleniumLibrary">
-<arg>xpath=//input[@id="password" and @type="password"]</arg>
+<arg>${LOCATOR_INPUT_PASSWORD}</arg>
 <arg>${texte}</arg>
 <doc>Types the given password into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2026-03-05T17:36:16.825246" elapsed="0.068294"/>
+<status status="PASS" start="2026-03-06T15:14:10.360341" elapsed="0.083672"/>
 </kw>
 <arg>${compte}[password]</arg>
-<status status="PASS" start="2026-03-05T17:36:16.824245" elapsed="0.070302"/>
+<status status="PASS" start="2026-03-06T15:14:10.359463" elapsed="0.085557"/>
 </kw>
 <kw name="Sign In" owner="PageConnexion">
 <kw name="Click Element" owner="SeleniumLibrary">
-<arg>xpath=//button[contains(text(), "Se connecter")]</arg>
+<arg>${LOCATOR_BUTTON_CONNECTION}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2026-03-05T17:36:16.894547" elapsed="0.063135"/>
+<status status="PASS" start="2026-03-06T15:14:10.445020" elapsed="0.060155"/>
 </kw>
-<status status="PASS" start="2026-03-05T17:36:16.894547" elapsed="0.063135"/>
+<status status="PASS" start="2026-03-06T15:14:10.445020" elapsed="0.060155"/>
 </kw>
 <arg>${compte_2}</arg>
 <doc>Se Connecter</doc>
-<status status="PASS" start="2026-03-05T17:36:16.716971" elapsed="0.241707"/>
+<status status="PASS" start="2026-03-06T15:14:10.237074" elapsed="0.268101"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
 <arg>2s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2026-03-05T17:36:16.958678" elapsed="2.000342"/>
+<status status="PASS" start="2026-03-06T15:14:10.505834" elapsed="2.000067"/>
 </kw>
 <kw name="Verifier Connexion Ko" owner="StepConnexion">
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Verifier Connexion Ko ${compte}[username]</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2026-03-05T17:36:18.960022" elapsed="0.000000"/>
+<status status="PASS" start="2026-03-06T15:14:12.506901" elapsed="0.000000"/>
 </kw>
-<kw name="Check Connection Ko" owner="BasePages">
+<kw name="Check Connection Ko" owner="PageConnexion">
 <kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
 <arg>${LOCATOR_CHECK_CONNECTION_KO}</arg>
 <arg>timeout=10s</arg>
 <doc>Waits until the element ``locator`` appears on the current page.</doc>
-<status status="PASS" start="2026-03-05T17:36:18.961023" elapsed="0.011446"/>
+<status status="PASS" start="2026-03-06T15:14:12.507900" elapsed="0.010001"/>
 </kw>
 <kw name="Get Text" owner="SeleniumLibrary">
 <var>${message}</var>
 <arg>${LOCATOR_CHECK_CONNECTION_KO}</arg>
 <doc>Returns the text value of the element identified by ``locator``.</doc>
-<status status="PASS" start="2026-03-05T17:36:18.973003" elapsed="0.020676"/>
+<status status="PASS" start="2026-03-06T15:14:12.517901" elapsed="0.018726"/>
 </kw>
 <kw name="Run Keyword And Continue On Failure" owner="BuiltIn">
 <kw name="Should Be Equal" owner="BuiltIn">
 <arg>${texte}</arg>
 <arg>${message}</arg>
 <doc>Fails if the given objects are unequal.</doc>
-<status status="PASS" start="2026-03-05T17:36:18.994685" elapsed="0.000000"/>
+<status status="PASS" start="2026-03-06T15:14:12.536627" elapsed="0.001052"/>
 </kw>
 <arg>Should Be Equal</arg>
 <arg>${texte}</arg>
 <arg>${message}</arg>
 <doc>Runs the keyword and continues execution even if a failure occurs.</doc>
-<status status="PASS" start="2026-03-05T17:36:18.994685" elapsed="0.000000"/>
+<status status="PASS" start="2026-03-06T15:14:12.536627" elapsed="0.001052"/>
 </kw>
 <arg>Email ou mot de passe incorrect</arg>
-<status status="PASS" start="2026-03-05T17:36:18.960022" elapsed="0.035667"/>
+<status status="PASS" start="2026-03-06T15:14:12.506901" elapsed="0.030778"/>
 </kw>
 <arg>${compte_2}</arg>
-<status status="PASS" start="2026-03-05T17:36:18.959020" elapsed="0.036669"/>
+<status status="PASS" start="2026-03-06T15:14:12.505901" elapsed="0.031778"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
 <arg>2s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2026-03-05T17:36:18.995817" elapsed="2.000731"/>
+<status status="PASS" start="2026-03-06T15:14:12.537679" elapsed="2.000192"/>
 </kw>
 <kw name="Test Teardown" owner="BaseTests" type="TEARDOWN">
 <kw name="Capture Step ScreenShot" owner="BaseSelenium">
 <kw name="Capture Page Screenshot" owner="SeleniumLibrary">
 <arg>${OUTPUT DIR}${/}${FILENAME}_${step}.png</arg>
 <doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
-<status status="PASS" start="2026-03-05T17:36:20.997577" elapsed="0.069588"/>
+<status status="PASS" start="2026-03-06T15:14:14.538870" elapsed="0.135248"/>
 </kw>
 <if>
 <branch type="IF" condition="'''${step}''' == 'FAIL'">
 <kw name="Get Source" owner="SeleniumLibrary">
 <var>${html}</var>
 <doc>Returns the entire HTML source of the current page or frame.</doc>
-<status status="NOT RUN" start="2026-03-05T17:36:21.067165" elapsed="0.000000"/>
+<status status="NOT RUN" start="2026-03-06T15:14:14.674118" elapsed="0.000000"/>
 </kw>
 <kw name="Create File" owner="OperatingSystem">
 <arg>path=${OUTPUT DIR}${/}${FILENAME}_${step}.html</arg>
 <arg>content=${html}</arg>
 <arg>encoding=UTF-8</arg>
 <doc>Creates a file with the given content and encoding.</doc>
-<status status="NOT RUN" start="2026-03-05T17:36:21.067165" elapsed="0.000000"/>
+<status status="NOT RUN" start="2026-03-06T15:14:14.674118" elapsed="0.000000"/>
 </kw>
-<status status="NOT RUN" start="2026-03-05T17:36:21.067165" elapsed="0.000000"/>
+<status status="NOT RUN" start="2026-03-06T15:14:14.674118" elapsed="0.000000"/>
 </branch>
-<status status="PASS" start="2026-03-05T17:36:21.067165" elapsed="0.000000"/>
+<status status="PASS" start="2026-03-06T15:14:14.674118" elapsed="0.000000"/>
 </if>
 <arg>${TEST_STATUS}</arg>
 <doc>Capture avec règle de nommage du fichier
 Le step permet d'identifier l'étape et de faire plusieurs captures par test</doc>
-<status status="PASS" start="2026-03-05T17:36:20.997577" elapsed="0.069588"/>
+<status status="PASS" start="2026-03-06T15:14:14.538870" elapsed="0.136250"/>
 </kw>
 <kw name="Close Browser" owner="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" start="2026-03-05T17:36:21.067165" elapsed="2.118644"/>
+<status status="PASS" start="2026-03-06T15:14:14.675120" elapsed="2.158746"/>
 </kw>
 <doc>Test Teardown</doc>
-<status status="PASS" start="2026-03-05T17:36:20.996548" elapsed="2.189261"/>
+<status status="PASS" start="2026-03-06T15:14:14.537871" elapsed="2.295995"/>
 </kw>
 <doc>Se Connecter Compte_2</doc>
 <tag>browser_chrome</tag>
 <tag>dev_done</tag>
 <tag>env_TEST</tag>
-<tag>jira_03</tag>
+<tag>jira_02</tag>
 <tag>test_negatif</tag>
 <tag>type_tnr</tag>
-<status status="PASS" start="2026-03-05T17:36:15.232249" elapsed="7.954110"/>
+<status status="PASS" start="2026-03-06T15:14:08.694358" elapsed="8.139508"/>
+</test>
+<test id="s1-t4" name="Se connecter Compte_MFA_1" line="56">
+<kw name="Test Setup" owner="BaseTests" type="SETUP">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${EMPTY}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-03-06T15:14:16.836207" elapsed="0.000988"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>================================================================== TEST SETUP</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-03-06T15:14:16.837195" elapsed="0.001022"/>
+</kw>
+<kw name="Clean String Filename" owner="Common">
+<var>${filename}</var>
+<arg>${TEST NAME}_Env_${ENV}_${BROWSER}_</arg>
+<status status="PASS" start="2026-03-06T15:14:16.838217" elapsed="0.000000"/>
+</kw>
+<kw name="Set Global Variable" owner="BuiltIn">
+<arg>${FILENAME}</arg>
+<arg>${filename}</arg>
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<status status="PASS" start="2026-03-06T15:14:16.838217" elapsed="0.000976"/>
+</kw>
+<kw name="Register Keyword To Run On Failure" owner="SeleniumLibrary">
+<arg>NONE</arg>
+<doc>Sets the keyword to execute, when a SeleniumLibrary keyword fails.</doc>
+<status status="PASS" start="2026-03-06T15:14:16.839193" elapsed="0.000000"/>
+</kw>
+<kw name="Run Keyword" owner="BuiltIn">
+<kw name="Openchrome" owner="BaseSelenium">
+<kw name="Evaluate" owner="BuiltIn">
+<var>${options}</var>
+<arg>sys.modules['selenium.webdriver'].ChromeOptions()</arg>
+<arg>sys, selenium.webdriver</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2026-03-06T15:14:16.840190" elapsed="0.000000"/>
+</kw>
+<kw name="Call Method" owner="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>incognito</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="PASS" start="2026-03-06T15:14:16.840190" elapsed="0.000000"/>
+</kw>
+<kw name="Call Method" owner="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>disable-search-engine-choice-screen</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="PASS" start="2026-03-06T15:14:16.840190" elapsed="0.001001"/>
+</kw>
+<kw name="Create List" owner="BuiltIn">
+<var>${excludeSwitches}</var>
+<arg>enable-automation</arg>
+<arg>enable-logging</arg>
+<arg>disable-popup-blocking</arg>
+<doc>Returns a list containing given items.</doc>
+<status status="PASS" start="2026-03-06T15:14:16.841191" elapsed="0.000000"/>
+</kw>
+<kw name="Call Method" owner="BuiltIn">
+<arg>${options}</arg>
+<arg>add_experimental_option</arg>
+<arg>excludeSwitches</arg>
+<arg>${excludeSwitches}</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="PASS" start="2026-03-06T15:14:16.841191" elapsed="0.000000"/>
+</kw>
+<if>
+<branch type="IF" condition="'''${BROWSER_HEADLESS}'''.upper() == 'YES'">
+<kw name="Call Method" owner="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>headless</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" start="2026-03-06T15:14:16.842193" elapsed="0.000000"/>
+</kw>
+<status status="NOT RUN" start="2026-03-06T15:14:16.841191" elapsed="0.001002"/>
+</branch>
+<status status="PASS" start="2026-03-06T15:14:16.841191" elapsed="0.001002"/>
+</if>
+<kw name="Open Browser" owner="SeleniumLibrary">
+<arg>url=${URL_DIGITALBANK_${ENV}}</arg>
+<arg>browser=chrome</arg>
+<arg>options=${options}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-03-06T15:14:16.842193" elapsed="1.363984"/>
+</kw>
+<doc>Openchrome</doc>
+<status status="PASS" start="2026-03-06T15:14:16.839193" elapsed="1.366984"/>
+</kw>
+<arg>Open${BROWSER}</arg>
+<doc>Executes the given keyword with the given arguments.</doc>
+<status status="PASS" start="2026-03-06T15:14:16.839193" elapsed="1.366984"/>
+</kw>
+<kw name="Set Selenium Implicit Wait" owner="SeleniumLibrary">
+<arg>${IMPLICIT_WAIT}</arg>
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<status status="PASS" start="2026-03-06T15:14:18.206965" elapsed="0.001041"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-03-06T15:14:18.208006" elapsed="0.048310"/>
+</kw>
+<doc>Test Setup</doc>
+<status status="PASS" start="2026-03-06T15:14:16.836207" elapsed="1.420109"/>
+</kw>
+<kw name="Charger Donnees Compte" owner="StepConnexion">
+<kw name="Load Json From File" owner="JSONLibrary">
+<var>${data}</var>
+<arg>${JSON_FILE_PATH}</arg>
+<doc>Load JSON from file.</doc>
+<status status="PASS" start="2026-03-06T15:14:18.257317" elapsed="0.000999"/>
+</kw>
+<kw name="Get From Dictionary" owner="Collections">
+<var>${compte_0}</var>
+<arg>${data}</arg>
+<arg>${compte}</arg>
+<doc>Returns a value from the given ``dictionary`` based on the given ``key``.</doc>
+<status status="PASS" start="2026-03-06T15:14:18.258316" elapsed="0.000000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Compte : ${compte}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-03-06T15:14:18.258316" elapsed="0.001008"/>
+</kw>
+<return>
+<value>${compte_0}</value>
+<status status="PASS" start="2026-03-06T15:14:18.259324" elapsed="0.000000"/>
+</return>
+<var>${compte_mfa_1}</var>
+<arg>compte_mfa_1</arg>
+<doc>Charger les données depuis le fichier JSON</doc>
+<status status="PASS" start="2026-03-06T15:14:18.257317" elapsed="0.002007"/>
+</kw>
+<kw name="Se Connecter" owner="StepConnexion">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Se connecter ${compte}[username]</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-03-06T15:14:18.260317" elapsed="0.000000"/>
+</kw>
+<kw name="Set Username" owner="PageConnexion">
+<kw name="Input Text" owner="SeleniumLibrary">
+<arg>${LOCATOR_INPUT_USERNAME}</arg>
+<arg>${texte}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-03-06T15:14:18.261524" elapsed="0.129440"/>
+</kw>
+<arg>${compte}[username]</arg>
+<status status="PASS" start="2026-03-06T15:14:18.260317" elapsed="0.130647"/>
+</kw>
+<kw name="Set Password" owner="PageConnexion">
+<kw name="Input Password" owner="SeleniumLibrary">
+<arg>${LOCATOR_INPUT_PASSWORD}</arg>
+<arg>${texte}</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-03-06T15:14:18.391961" elapsed="0.097014"/>
+</kw>
+<arg>${compte}[password]</arg>
+<status status="PASS" start="2026-03-06T15:14:18.391961" elapsed="0.097014"/>
+</kw>
+<kw name="Sign In" owner="PageConnexion">
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>${LOCATOR_BUTTON_CONNECTION}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-03-06T15:14:18.489980" elapsed="0.064822"/>
+</kw>
+<status status="PASS" start="2026-03-06T15:14:18.489980" elapsed="0.064822"/>
+</kw>
+<arg>${compte_mfa_1}</arg>
+<doc>Se Connecter</doc>
+<status status="PASS" start="2026-03-06T15:14:18.259324" elapsed="0.295478"/>
+</kw>
+<kw name="Se Connecter Avec 2FA" owner="StepConnexion">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Se connecter avec 2fa ${compte}[username]</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-03-06T15:14:18.555803" elapsed="0.000000"/>
+</kw>
+<kw name="Verifier Page 2FA" owner="MfaConnexion">
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>${LOCATOR_CHECK_MFA_LOGIN}</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2026-03-06T15:14:18.557804" elapsed="0.010699"/>
+</kw>
+<kw name="Get Text" owner="SeleniumLibrary">
+<var>${actual_text_2fa}</var>
+<arg>${LOCATOR_CHECK_MFA_LOGIN}</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-03-06T15:14:18.568503" elapsed="0.020046"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Texte attendu : ${text_2FA}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-03-06T15:14:18.588549" elapsed="0.001002"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Texte récupéré : ${actual_text_2fa}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-03-06T15:14:18.589551" elapsed="0.001006"/>
+</kw>
+<kw name="Run Keyword And Continue On Failure" owner="BuiltIn">
+<kw name="Should Be Equal" owner="BuiltIn">
+<arg>${text_2fa}</arg>
+<arg>${actual_text_2fa}</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status status="PASS" start="2026-03-06T15:14:18.590557" elapsed="0.000000"/>
+</kw>
+<arg>Should Be Equal</arg>
+<arg>${text_2fa}</arg>
+<arg>${actual_text_2fa}</arg>
+<doc>Runs the keyword and continues execution even if a failure occurs.</doc>
+<status status="PASS" start="2026-03-06T15:14:18.590557" elapsed="0.001003"/>
+</kw>
+<arg>Vérification en 2 étapes</arg>
+<status status="PASS" start="2026-03-06T15:14:18.556801" elapsed="0.034759"/>
+</kw>
+<kw name="Entrer Code 2FA" owner="MfaConnexion">
+<for flavor="IN RANGE">
+<iter>
+<kw name="Get Substring" owner="String">
+<var>${digit}</var>
+<arg>${code}</arg>
+<arg>${i}</arg>
+<arg>${i+1}</arg>
+<doc>Returns a substring from ``start`` index to ``end`` index.</doc>
+<status status="PASS" start="2026-03-06T15:14:18.591560" elapsed="0.001001"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<arg>xpath=//input[@class="code-input" and @data-index="${i}"]</arg>
+<arg>${digit}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-03-06T15:14:18.592561" elapsed="0.112460"/>
+</kw>
+<var name="${i}">0</var>
+<status status="PASS" start="2026-03-06T15:14:18.591560" elapsed="0.113461"/>
+</iter>
+<iter>
+<kw name="Get Substring" owner="String">
+<var>${digit}</var>
+<arg>${code}</arg>
+<arg>${i}</arg>
+<arg>${i+1}</arg>
+<doc>Returns a substring from ``start`` index to ``end`` index.</doc>
+<status status="PASS" start="2026-03-06T15:14:18.706018" elapsed="0.000000"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<arg>xpath=//input[@class="code-input" and @data-index="${i}"]</arg>
+<arg>${digit}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-03-06T15:14:18.707019" elapsed="0.054634"/>
+</kw>
+<var name="${i}">1</var>
+<status status="PASS" start="2026-03-06T15:14:18.705021" elapsed="0.056632"/>
+</iter>
+<iter>
+<kw name="Get Substring" owner="String">
+<var>${digit}</var>
+<arg>${code}</arg>
+<arg>${i}</arg>
+<arg>${i+1}</arg>
+<doc>Returns a substring from ``start`` index to ``end`` index.</doc>
+<status status="PASS" start="2026-03-06T15:14:18.762661" elapsed="0.000000"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<arg>xpath=//input[@class="code-input" and @data-index="${i}"]</arg>
+<arg>${digit}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-03-06T15:14:18.763653" elapsed="0.054284"/>
+</kw>
+<var name="${i}">2</var>
+<status status="PASS" start="2026-03-06T15:14:18.762661" elapsed="0.055276"/>
+</iter>
+<iter>
+<kw name="Get Substring" owner="String">
+<var>${digit}</var>
+<arg>${code}</arg>
+<arg>${i}</arg>
+<arg>${i+1}</arg>
+<doc>Returns a substring from ``start`` index to ``end`` index.</doc>
+<status status="PASS" start="2026-03-06T15:14:18.818930" elapsed="0.001476"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<arg>xpath=//input[@class="code-input" and @data-index="${i}"]</arg>
+<arg>${digit}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-03-06T15:14:18.820434" elapsed="0.059025"/>
+</kw>
+<var name="${i}">3</var>
+<status status="PASS" start="2026-03-06T15:14:18.817937" elapsed="0.061522"/>
+</iter>
+<iter>
+<kw name="Get Substring" owner="String">
+<var>${digit}</var>
+<arg>${code}</arg>
+<arg>${i}</arg>
+<arg>${i+1}</arg>
+<doc>Returns a substring from ``start`` index to ``end`` index.</doc>
+<status status="PASS" start="2026-03-06T15:14:18.879459" elapsed="0.001019"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<arg>xpath=//input[@class="code-input" and @data-index="${i}"]</arg>
+<arg>${digit}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-03-06T15:14:18.881463" elapsed="0.055583"/>
+</kw>
+<var name="${i}">4</var>
+<status status="PASS" start="2026-03-06T15:14:18.879459" elapsed="0.057587"/>
+</iter>
+<iter>
+<kw name="Get Substring" owner="String">
+<var>${digit}</var>
+<arg>${code}</arg>
+<arg>${i}</arg>
+<arg>${i+1}</arg>
+<doc>Returns a substring from ``start`` index to ``end`` index.</doc>
+<status status="PASS" start="2026-03-06T15:14:18.938044" elapsed="0.000000"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<arg>xpath=//input[@class="code-input" and @data-index="${i}"]</arg>
+<arg>${digit}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-03-06T15:14:18.939046" elapsed="0.053227"/>
+</kw>
+<var name="${i}">5</var>
+<status status="PASS" start="2026-03-06T15:14:18.938044" elapsed="0.054229"/>
+</iter>
+<var>${i}</var>
+<value>6</value>
+<status status="PASS" start="2026-03-06T15:14:18.591560" elapsed="0.400713"/>
+</for>
+<arg>${compte}[code]</arg>
+<status status="PASS" start="2026-03-06T15:14:18.591560" elapsed="0.400713"/>
+</kw>
+<kw name="Verifier Code 2FA" owner="MfaConnexion">
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>${LOCATOR_BUTTON_MFA_VERIF}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-03-06T15:14:18.992273" elapsed="0.081594"/>
+</kw>
+<status status="PASS" start="2026-03-06T15:14:18.992273" elapsed="0.082594"/>
+</kw>
+<arg>${compte_mfa_1}</arg>
+<doc>Se Connecter avec 2FA</doc>
+<status status="PASS" start="2026-03-06T15:14:18.554802" elapsed="0.520065"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-03-06T15:14:19.074867" elapsed="2.001984"/>
+</kw>
+<kw name="Verifier Connexion Ok" owner="StepConnexion">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Verifier Connexion Ok ${compte}[username]</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-03-06T15:14:21.078424" elapsed="0.000087"/>
+</kw>
+<kw name="Check Connection Ok" owner="PageConnexion">
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>${LOCATOR_CHECK_CONNECTION_OK}</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2026-03-06T15:14:21.079417" elapsed="0.012001"/>
+</kw>
+<kw name="Get Text" owner="SeleniumLibrary">
+<var>${actual_text}</var>
+<arg>${LOCATOR_CHECK_CONNECTION_OK}</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-03-06T15:14:21.092420" elapsed="0.015740"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Texte attendu : ${texte}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-03-06T15:14:21.108160" elapsed="0.000000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Texte récupéré : ${actual_text}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-03-06T15:14:21.109172" elapsed="0.000980"/>
+</kw>
+<kw name="Run Keyword And Continue On Failure" owner="BuiltIn">
+<kw name="Should Be Equal" owner="BuiltIn">
+<arg>${texte}</arg>
+<arg>${actual_text}</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status status="PASS" start="2026-03-06T15:14:21.110152" elapsed="0.000000"/>
+</kw>
+<arg>Should Be Equal</arg>
+<arg>${texte}</arg>
+<arg>${actual_text}</arg>
+<doc>Runs the keyword and continues execution even if a failure occurs.</doc>
+<status status="PASS" start="2026-03-06T15:14:21.110152" elapsed="0.000000"/>
+</kw>
+<arg>Mes Comptes</arg>
+<status status="PASS" start="2026-03-06T15:14:21.079417" elapsed="0.030735"/>
+</kw>
+<arg>${compte_mfa_1}</arg>
+<doc>Verifier Connexion Ok</doc>
+<status status="PASS" start="2026-03-06T15:14:21.076851" elapsed="0.033301"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-03-06T15:14:21.111162" elapsed="2.000088"/>
+</kw>
+<kw name="Se Deconnecter" owner="StepConnexion">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Se Deconnecter</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-03-06T15:14:23.112256" elapsed="0.000395"/>
+</kw>
+<kw name="Sign Out" owner="PageConnexion">
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>${LOCATOR_BUTTON_DISCONNECTION}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-03-06T15:14:23.112651" elapsed="0.059618"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>${LOCATOR_CHECK_LOGIN}</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2026-03-06T15:14:23.172269" elapsed="0.011633"/>
+</kw>
+<status status="PASS" start="2026-03-06T15:14:23.112651" elapsed="0.071251"/>
+</kw>
+<doc>Se Deconnecter</doc>
+<status status="PASS" start="2026-03-06T15:14:23.111250" elapsed="0.072652"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-03-06T15:14:23.184914" elapsed="2.000546"/>
+</kw>
+<kw name="Test Teardown" owner="BaseTests" type="TEARDOWN">
+<kw name="Capture Step ScreenShot" owner="BaseSelenium">
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<arg>${OUTPUT DIR}${/}${FILENAME}_${step}.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2026-03-06T15:14:25.186466" elapsed="0.179091"/>
+</kw>
+<if>
+<branch type="IF" condition="'''${step}''' == 'FAIL'">
+<kw name="Get Source" owner="SeleniumLibrary">
+<var>${html}</var>
+<doc>Returns the entire HTML source of the current page or frame.</doc>
+<status status="NOT RUN" start="2026-03-06T15:14:25.366552" elapsed="0.000000"/>
+</kw>
+<kw name="Create File" owner="OperatingSystem">
+<arg>path=${OUTPUT DIR}${/}${FILENAME}_${step}.html</arg>
+<arg>content=${html}</arg>
+<arg>encoding=UTF-8</arg>
+<doc>Creates a file with the given content and encoding.</doc>
+<status status="NOT RUN" start="2026-03-06T15:14:25.366552" elapsed="0.000000"/>
+</kw>
+<status status="NOT RUN" start="2026-03-06T15:14:25.366552" elapsed="0.000000"/>
+</branch>
+<status status="PASS" start="2026-03-06T15:14:25.366552" elapsed="0.000000"/>
+</if>
+<arg>${TEST_STATUS}</arg>
+<doc>Capture avec règle de nommage du fichier
+Le step permet d'identifier l'étape et de faire plusieurs captures par test</doc>
+<status status="PASS" start="2026-03-06T15:14:25.186466" elapsed="0.180086"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-03-06T15:14:25.367559" elapsed="2.173025"/>
+</kw>
+<doc>Test Teardown</doc>
+<status status="PASS" start="2026-03-06T15:14:25.186466" elapsed="2.354118"/>
+</kw>
+<doc>Se Connecter Compte_MFA_1</doc>
+<tag>browser_chrome</tag>
+<tag>dev_done</tag>
+<tag>env_TEST</tag>
+<tag>jira_03</tag>
+<tag>test_positif</tag>
+<tag>type_tnr</tag>
+<status status="PASS" start="2026-03-06T15:14:16.835194" elapsed="10.706170"/>
 </test>
 <kw name="Suite Teardown" owner="BaseTests" type="TEARDOWN">
 <kw name="Log To Console" owner="BuiltIn">
 <arg>${EMPTY}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2026-03-05T17:36:23.187363" elapsed="0.000998"/>
+<status status="PASS" start="2026-03-06T15:14:27.542362" elapsed="0.000991"/>
 </kw>
 <doc>Suite Teardown</doc>
-<status status="PASS" start="2026-03-05T17:36:23.187363" elapsed="0.000998"/>
+<status status="PASS" start="2026-03-06T15:14:27.542362" elapsed="0.000991"/>
 </kw>
 <doc>Suite DigitalBank</doc>
-<status status="PASS" start="2026-03-05T17:35:50.795839" elapsed="32.392522"/>
+<status status="PASS" start="2026-03-06T15:13:51.941824" elapsed="35.601529"/>
 </suite>
 <statistics>
 <total>
@@ -1455,7 +1655,8 @@ Le step permet d'identifier l'étape et de faire plusieurs captures par test</do
 <stat pass="1" fail="0" skip="0">jira_03</stat>
 <stat pass="1" fail="0" skip="0">sanity</stat>
 <stat pass="1" fail="0" skip="0">test_negatif</stat>
-<stat pass="2" fail="0" skip="0">test_positive</stat>
+<stat pass="1" fail="0" skip="0">test_positif</stat>
+<stat pass="1" fail="0" skip="0">test_positive</stat>
 <stat pass="4" fail="0" skip="0">type_tnr</stat>
 </tag>
 <suite>
@@ -1463,6 +1664,6 @@ Le step permet d'identifier l'étape et de faire plusieurs captures par test</do
 </suite>
 </statistics>
 <errors>
-<msg time="2026-03-05T17:35:51.251336" level="WARN">Error in file 'C:\Users\Administrateur\Documents\Etudes_de_cas_finaux\Projet_Etude_de_Cas_3\digitalbank\tests\step-defs\StepConnexion.resource' on line 18: The '[Return]' setting is deprecated. Use the 'RETURN' statement instead.</msg>
+<msg time="2026-03-06T15:13:52.386858" level="WARN">Error in file 'C:\Users\Administrateur\Documents\Etudes_de_cas_finaux\Projet_Etude_de_Cas_3\digitalbank\tests\step-defs\StepConnexion.resource' on line 19: The '[Return]' setting is deprecated. Use the 'RETURN' statement instead.</msg>
 </errors>
 </robot>
