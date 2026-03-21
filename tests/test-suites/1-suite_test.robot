@@ -66,7 +66,7 @@ Se connecter Compte_MFA_1
     Sleep    2s
 
 # CAS N°3 (NON-PASSANT) : Connexion avec identifiant, mot de passe et MFA erroné (chiffre manquant)
-Se connecter Compte_MFA_1
+Se connecter Compte_MFA_2
     [Documentation]    Se Connecter Compte_MFA_2
     [Tags]    jira_04    test_positif    dev_done
     ${compte_mfa_2}=    Charger Donnees Compte    compte_mfa_2

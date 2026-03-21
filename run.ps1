@@ -10,6 +10,7 @@
 
 # Pour lancer certaines suites : 
 robot -d output tests/test-suites/1-suite_test.robot
+robot -d output tests/test-suites/2-suite_test.robot
 
 #---------------------------------------------------
 

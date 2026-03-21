@@ -45,3 +45,14 @@ DigitalBank est une application bancaire mobile simulée, conçue spécifiquemen
 5. **Mot de passe**: Doit contenir 8+ caractères, majuscule, minuscule, chiffre, caractère spécial
 
 ---
+
+
+### Amélioration
+
+- Gestion des erreurs
+- Refactorisation avec des xpath plus pertinents et robustes
+- Stocker données dans une base de données
+- Revoir les captures à chaque étape d'un test
+- Prévoir une couverture de test avec méthodes de partition d'équivalence, valeurs limites etc...
+- Mettre verifications à chaque test et refactoriser le code
+

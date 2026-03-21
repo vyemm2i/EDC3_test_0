@@ -6,3 +6,6 @@ Resource    ${CURDIR}/../BaseSelenium.resource
 
 *** Variables ***
 # Prochainement tout ce qui va être commun aux pages.
+
+
+

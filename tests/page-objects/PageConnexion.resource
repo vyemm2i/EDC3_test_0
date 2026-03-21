@@ -44,7 +44,7 @@ Sign Out
 *** Keywords ***
 Check Connection Ok
     [Arguments]    ${texte}
-    SeleniumLibrary.Wait Until Page Contains Element    ${LOCATOR_CHECK_CONNECTION_OK}
+    SeleniumLibrary.Wait Until Page Contains Element    ${LOCATOR_CHECK_CONNECTION_OK}    10s
     ${actual_text}    SeleniumLibrary.Get Text    ${LOCATOR_CHECK_CONNECTION_OK}
     Log To Console    Texte attendu : ${texte}
     Log To Console    Texte récupéré : ${actual_text}
