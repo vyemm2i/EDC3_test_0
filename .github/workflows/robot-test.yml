@@ -55,10 +55,10 @@ jobs:
 
     - name: Run Robot Tests
       run: |
-        robot -d output tests/test-suites
+        robot -d reports tests/test-suites
 
     - name: Upload Robot Reports
       uses: actions/upload-artifact@v4
       with:
         name: robot-report
-        path: output
+        path: reports
