@@ -23,6 +23,8 @@ ${LOCATOR_CHECK_LOGIN}    xpath=//p[@class="login-subtitle" and contains(., "Con
 ${LOCATOR_CHECK_CONNECTION_OK}    xpath=//button[contains(., "Mes Comptes")]
 ${LOCATOR_CHECK_CONNECTION_KO}    xpath=//div[@id="login-error"]
 
+
+
 *** Keywords ***
 Set Username
     [Arguments]    ${texte}

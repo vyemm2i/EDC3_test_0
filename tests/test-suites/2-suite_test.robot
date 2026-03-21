@@ -26,8 +26,8 @@ ${MONTANT_TOTAL_COMPTE_1}    20000
 ${MONTANT_COMPTE_COURANT_COMPTE_1}    5000
 ${MONTANT_LIVRET_A_COMPTE_1}    15000
 
-${MONTANT_TOTAL_COMPTE_2}    8923,25
-${MONTANT_COMPTE_COURANT_COMPTE_2}    8923,25
+${MONTANT_TOTAL_COMPTE_2}    8923.45
+${MONTANT_COMPTE_COURANT_COMPTE_2}    8923.45
 ${MONTANT_LIVRET_A_COMPTE_2}    0
 
 
@@ -55,6 +55,7 @@ Verifier Consultation Comptes Ok Mfa
     ${compte_mfa_1}=    Charger Donnees Compte    compte_mfa_1
     StepConnexion.Se Connecter    ${compte_mfa_1}
     Sleep    2s
+    StepConnexion.Se Connecter Avec 2FA    ${compte_mfa_1}
     StepConnexion.Verifier Connexion Ok    ${compte_mfa_1}
     Sleep    2s
     StepConsultation.Verifier Solde Total    ${MONTANT_TOTAL_COMPTE_2}
