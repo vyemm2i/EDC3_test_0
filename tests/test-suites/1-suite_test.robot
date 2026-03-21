@@ -23,29 +23,56 @@ ${JSON_FILE_PATH}    ${CURDIR}/../data-env/data-part.json
 
 
 *** Test Cases ***
+
+# Sanity check
 Check Chrome Open
     [Tags]    sanity
     Sleep    2s   # Attendre en secondes pour voir la page
     No Operation
 
-
-*** Test Cases ***
+# CAS N°1 (PASSANT) : Connexion avec identifiant et mot de passe
 Se Connecter Compte_1
-    [Documentation]    Se Connecter Compte
+    [Documentation]    Se Connecter Compte_1
     [Tags]    jira_01    test_positive    dev_done
-    ${compte_1}=    Charger Donnees Compte
+    ${compte_1}=    Charger Donnees Compte    compte_1
     StepConnexion.Se Connecter    ${compte_1}
-    Sleep    3s
+    Sleep    2s
     StepConnexion.Verifier Connexion Ok    ${compte_1}
-    Sleep    3s
-
-Se Deconnecter Compte_1
-    [Documentation]    Se Déconnecter Compte
-    [Tags]    jira_02    test_positive    dev_done
-    ${compte_1}=    Charger Donnees Compte
-    StepConnexion.Se Connecter    ${compte_1}
-    Sleep    3s
-    StepConnexion.Verifier Connexion Ok    ${compte_1}
-    Sleep    3s
+    Sleep    2s
     StepConnexion.Se Deconnecter
     Sleep    2s
+
+# CAS N°2 (NON-PASSANT) : Connexion avec identifiant et mot de passe erroné (autre)
+Se Connecter Compte_2
+    [Documentation]    Se Connecter Compte_2
+    [Tags]    jira_02    test_negatif    dev_done
+    ${compte_2}=    Charger Donnees Compte    compte_2
+    StepConnexion.Se Connecter    ${compte_2}
+    Sleep    2s
+    StepConnexion.Verifier Connexion Ko    ${compte_2}
+    Sleep    2s
+
+# CAS N°3 (PASSANT) : Connexion avec identifiant, mot de passe et MFA
+Se connecter Compte_MFA_1
+    [Documentation]    Se Connecter Compte_MFA_1
+    [Tags]    jira_03    test_positif    dev_done
+    ${compte_mfa_1}=    Charger Donnees Compte    compte_mfa_1
+    StepConnexion.Se Connecter    ${compte_mfa_1}
+    StepConnexion.Se Connecter Avec 2FA    ${compte_mfa_1}
+    Sleep    2s
+    StepConnexion.Verifier Connexion Ok    ${compte_mfa_1}
+    Sleep    2s
+    StepConnexion.Se Deconnecter
+    Sleep    2s
+
+# CAS N°3 (NON-PASSANT) : Connexion avec identifiant, mot de passe et MFA erroné (chiffre manquant)
+Se connecter Compte_MFA_2
+    [Documentation]    Se Connecter Compte_MFA_2
+    [Tags]    jira_04    test_positif    dev_done
+    ${compte_mfa_2}=    Charger Donnees Compte    compte_mfa_2
+    StepConnexion.Se Connecter    ${compte_mfa_2}
+    StepConnexion.Se Connecter Avec 2FA    ${compte_mfa_2}
+    Sleep    2s
+    StepConnexion.Verifier Connexion 2FA Ko    ${compte_mfa_2}
+    Sleep    2s
+

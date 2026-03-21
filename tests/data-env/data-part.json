@@ -1,4 +1,5 @@
 {
+
     "compte_1": {
         "type": "1",
         "compte": "test",
@@ -6,5 +7,35 @@
         "password": "Test1234!",
         "prenom": "Utilisateur",
         "nom": "Test"
+    },
+
+    "compte_2": {
+        "type": "2",
+        "compte": "test",
+        "username": "test@digitalbank.fr",
+        "password": "test",
+        "prenom": "Utilisateur",
+        "nom": "Test"
+    },
+
+    "compte_mfa_1": {
+        "type": "mfa_1",
+        "compte": "test",
+        "username": "marie.martin@email.com",
+        "password": "SecurePass456!",
+        "prenom": "Marie",
+        "nom": "Martin",
+        "code": "123456"
+    },
+
+    "compte_mfa_2": {
+        "type": "mfa_2",
+        "compte": "test",
+        "username": "marie.martin@email.com",
+        "password": "SecurePass456!",
+        "prenom": "Marie",
+        "nom": "Martin",
+        "code": "12345"
     }
+
 }

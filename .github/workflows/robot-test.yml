@@ -4,13 +4,16 @@ on:
   push:
     branches:
       - main      # tests sur la branche main
-      - dev       # tests sur la branche dev
-      - sprint_1  # tests sur la branche sprint_1
+      - sprint_1  # tests sur la branche sprint_1 (dans l'énoncé on ne veut que dans le main)
+
   pull_request:
     branches:
       - main      # tests lors de PR vers main
-      - dev       # tests lors de PR vers dev
       - sprint_1  # tests lors de PR vers sprint_1
+
+  schedule:
+    - cron: '*/5 * * * *'  # Toutes les 5 min
+
 
 jobs:
 
@@ -21,6 +24,10 @@ jobs:
 
     - name: Checkout repository
       uses: actions/checkout@v4
+
+    - name: Lancer le pipeline
+      run: |
+        echo "Pipeline exécutée toutes les 5 minutes"
 
     - name: Setup Python
       uses: actions/setup-python@v5
@@ -48,10 +55,10 @@ jobs:
 
     - name: Run Robot Tests
       run: |
-        robot -d output tests/test-suites
+        robot -d reports tests/test-suites
 
     - name: Upload Robot Reports
       uses: actions/upload-artifact@v4
       with:
         name: robot-report
-        path: output
+        path: reports

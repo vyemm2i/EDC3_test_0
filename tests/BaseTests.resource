@@ -41,7 +41,9 @@ Test Setup
     Register Keyword To Run On Failure    NONE
     Run Keyword    Open${BROWSER}
     Set Selenium Implicit Wait    ${IMPLICIT_WAIT}
-    Maximize Browser Window
+    #Maximize Browser Window
+    Set Window Size    1920    1080
+
 
 Test Teardown
     [Documentation]    Test Teardown

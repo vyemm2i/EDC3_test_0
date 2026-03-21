@@ -71,5 +71,8 @@ robot -d output tests/test-suites/1-suite_test.robot
 
 #Installer JSONLIBRARY pour lire les fichiers et utiliser des méthodes json ; 
 
+#Pour build le conteneur :
+docker compose up -d
 
-
+#POur supprimer les volumes : 
+docker compose down -v
