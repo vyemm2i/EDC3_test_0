@@ -10,7 +10,7 @@ Resource    ${CURDIR}/BasePages.resource
 # Exemple des locators basés sur les label de l'application soumis au changement de langue
 
 # BUTTONS
-${LOCATOR_BUTTON_CONNECTION}    xpath=//button[contains(text(), "Se connecter")]
+${LOCATOR_BUTTON_CONNECTION}    xpath=//button[contains(., "Se connecter")]
 ${LOCATOR_BUTTON_DISCONNECTION}      xpath=//button[@id="btn-logout"]
 
 # INPUTS
@@ -18,9 +18,9 @@ ${LOCATOR_INPUT_USERNAME}    xpath=//input[@id="email" and @type="email"]
 ${LOCATOR_INPUT_PASSWORD}    xpath=//input[@id="password" and @type="password"]
 
 # CHECKS DE CONNEXION 
-${LOCATOR_CHECK_LOGIN}    xpath=//p[@class="login-subtitle" and contains(text(), "Connectez-vous à votre espace")]
+${LOCATOR_CHECK_LOGIN}    xpath=//p[@class="login-subtitle" and contains(., "Connectez-vous à votre espace")]
 
-${LOCATOR_CHECK_CONNECTION_OK}    xpath=//button[contains(text(), "Mes Comptes")]
+${LOCATOR_CHECK_CONNECTION_OK}    xpath=//button[contains(., "Mes Comptes")]
 ${LOCATOR_CHECK_CONNECTION_KO}    xpath=//div[@id="login-error"]
 
 *** Keywords ***
