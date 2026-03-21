@@ -47,7 +47,7 @@ Openedge
         Call Method    ${options}    add_argument    headless
     END
     Open Browser
-    ...    url=${URL_OPENCRUISE_${ENV}}
+    ...    url=${URL_DIGITALBANK_${ENV}}
     ...    browser=edge
     ...    options=${options}
 
@@ -57,7 +57,7 @@ Openfirefox
     # Call Method    ${options}    add_argument    private
     ${firefox}    Set Variable If    '''${BROWSER_HEADLESS}'''.upper() == 'YES'    headlessfirefox    firefox
     Open Browser
-    ...    url=${URL_OPENCRUISE_${ENV}}
+    ...    url=${URL_DIGITALBANK_${ENV}}
     ...    browser=${firefox}
     ...    options=${options}
 
