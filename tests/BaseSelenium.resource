@@ -1,9 +1,9 @@
 *** Settings ***
 Documentation       Keyword de base de selenium
 
-Library             OperatingSystem
 Library             SeleniumLibrary
 
+Resource            BaseLibrary.resource
 Resource            BaseVariable.resource
 
 
