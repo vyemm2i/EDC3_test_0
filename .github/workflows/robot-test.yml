@@ -12,7 +12,8 @@ on:
       - sprint_1  # tests lors de PR vers sprint_1
 
   schedule:
-    - cron: '*/5 * * * *'  # Toutes les 5 min
+    #- cron: '*/5 * * * *'  # Toutes les 5 min
+    - cron: '0 21 * * *'  # Toutes les 5 min
 
 
 jobs:
